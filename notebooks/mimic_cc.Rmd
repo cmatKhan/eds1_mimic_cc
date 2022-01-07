@@ -1,0 +1,136 @@
+---
+title: "Mimic CC RnaSeq"
+author: Chase Mateusiak, chasem@wustl.edu
+date: "`r Sys.Date()`"
+knit: (function(inputFile, encoding) { 
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), "../serve", 'index.html')) })
+output: 
+  html_document
+---
+
+```{r notebook_setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "#>",
+  echo = TRUE,
+  include = TRUE,
+  cache = TRUE
+)
+```
+
+# Setup environment
+
+```{r setup, include=FALSE, echo=TRUE}
+# note, kept here for convenience. Repeated so that it shows up in notebook
+library(DESeq2)
+library(gprofiler2)
+library(tidyverse)
+library(DT)
+library(pheatmap)
+library(here)
+```
+
+```{r}
+library(DESeq2)
+library(gprofiler2)
+library(tidyverse)
+library(DT)
+library(pheatmap)
+library(here)
+
+dds = readRDS(here("data/mimic_cc_dds.rds"))
+yeast_gff = readRDS(Sys.getenv("yeast_gff"))
+```
+
+
+# Display design and replicate tally
+
+```{r tally and show design}
+as_tibble(colData(dds)) %>%
+  group_by(genotype, aminoAcid) %>%
+  tally() %>%
+  DT::datatable()
+```
+
+# Modelling
+
+```{r model}
+design(dds) = ~ aminoAcid + genotype + aminoAcid:genotype
+
+dds = DESeq(dds, test = "LRT", reduced = ~ aminoAcid + genotype)
+
+interaction_term_res = results(dds)
+```
+
+# Plot gene with the most significant effect btwn aminoAcid groups
+
+```{r plt gene with most significant btwn group effect}
+# see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
+gene_plt <- plotCounts(dds, which.min(interaction_term_res$padj), 
+                   intgroup = c("aminoAcid","genotype"), 
+                   returnData = TRUE)
+
+ggplot(gene_plt,
+  aes(x = aminoAcid, y = count, color = genotype, group = genotype)) + 
+  geom_point() + stat_summary(fun=mean, geom="line") +
+  scale_y_log10() + 
+  ggtitle("THI4",
+          subtitle = "YGR144W")
+```
+
+# Effect in LysHisMetLeuUra
+
+```{r}
+res_aa = results(dds, 
+                 name="aminoAcid_LysHisMetLeuUra_vs_HisMetLeuUra",
+                 test="Wald")
+
+res_aa[which.min(res_aa$padj),]
+```
+
+# cluster significant genes by their profiles
+```{r}
+betas = coef(dds)
+colnames(betas)
+
+topGenes <- head(order(interaction_term_res$padj),20)
+mat <- betas[topGenes, -c(1,2)]
+thr <- 3 
+mat[mat < -thr] <- -thr
+mat[mat > thr] <- thr
+colnames(mat) = str_remove(colnames(mat), "genotype_")
+colnames(mat) = str_remove(colnames(mat), "genotype")
+colnames(mat) = str_remove(colnames(mat), "aminoAcid")
+
+gene_ids = tibble(id = rownames(mat)) %>%
+  left_join(as_tibble(yeast_gff), by = c('id' = 'locus_tag')) %>%
+  distinct(id, .keep_all = TRUE)
+
+rownames(mat) = gene_ids$gene
+
+pheatmap(mat, breaks=seq(from=-thr, to=thr, length=101),
+         cluster_col=FALSE)
+```
+
+# functional profiling
+
+```{r, include = FALSE}
+gostres <- gost(query = c('URA1','PFK2','SER33',
+                          'SAM1','THI20','THI2',
+                          'THI4','TDH2','ENO2',
+                          'CDC19','PGK1','LYS9',
+                          'ADE17','ADE2','OPT1'),
+                organism = "scerevisiae")
+
+p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+
+# note: not sure why this prints twice in notebook
+gprofiler2::publish_gostplot(p,
+                             highlight_terms = c('TF:M00337',
+                                                 'TF:M00046',
+                                                  'KEGG:01200',
+                                                  'WP:WP112',
+                                                  'GO:0044281'))
+
