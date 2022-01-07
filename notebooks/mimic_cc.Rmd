@@ -116,7 +116,9 @@ pheatmap(mat, breaks=seq(from=-thr, to=thr, length=101),
 
 # functional profiling
 
-```{r, include = FALSE}
+URA1 to OPT1 show both large effects in the presence of the double KO EDS1 and LYS14, and large drops in the corresponding conditions in which lysine is present. I cherry picked some terms which stood out. All of the terms are metabolism related.
+
+```{r}
 gostres <- gost(query = c('URA1','PFK2','SER33',
                           'SAM1','THI20','THI2',
                           'THI4','TDH2','ENO2',
