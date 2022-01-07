@@ -51,6 +51,7 @@ yeast_gff = readRDS(Sys.getenv("yeast_gff"))
 as_tibble(colData(dds)) %>%
   group_by(genotype, aminoAcid) %>%
   tally() %>%
+  arrange(aminoAcid) %>%
   DT::datatable()
 ```
 
