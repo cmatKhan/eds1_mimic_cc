@@ -3,9 +3,10 @@ library(DESeq2)
 library(tidyverse)
 library(here)
 
+# read in results
 shrunken_res_lists = readRDS(here("data/shrunken_res_lists.rds"))
 
-
+# use pathview::pathview to vis the lysine pathway + DE data
 mapYeastPathway = function(name, res, pathway_id, lfc_thres){
 
   fltr_res = res %>%
@@ -26,8 +27,7 @@ mapYeastPathway = function(name, res, pathway_id, lfc_thres){
 
 }
 
-
-
+# from scer KEGG
 pathways = list(
   lysine_pathway = "00300",
   biosyn_aa = "01230",
@@ -43,3 +43,5 @@ setwd("plots/plus_lys/lysine_pathway_kegg/")
 
 map(names(shrunken_res_lists$plus_lys),
     ~mapYeastPathway(., shrunken_res_lists$plus_lys[[.]], pathway_id = pathways$lysine_pathway, lfc_thres = .05))
+
+setwd(here())

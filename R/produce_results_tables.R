@@ -7,10 +7,11 @@ library(here)
 # create the same data set.
 dds = readRDS(here("data/mimic_cc_dds_lrt.rds"))
 
+# set aa base level to +lys
 dds$aminoAcid = relevel(dds$aminoAcid, "LysHisMetLeuUra")
 
+# run deseq
 design(dds) = ~ genotype + aminoAcid + genotype:aminoAcid
-
 dds = DESeq(
   dds,
   test = "LRT",

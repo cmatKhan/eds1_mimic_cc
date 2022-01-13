@@ -16,6 +16,8 @@ string_db = STRINGdb$new(version = "11",
 string_db
 
 #'
+#' For a single results table, write clustered networks to disk
+#'
 #' @param res_table_name name of the results table
 #' @param res_direction results are parsed into 'up' and 'down' corresponding to
 #'   direction of lfc
@@ -47,6 +49,17 @@ printNetworks = function(res_table_name, res_direction, string_db_mapped, dir_ou
 
 }
 
+#'
+#' filter a res table. make a series of network subplots for the partitioned
+#'   up/down reg sig genes
+#'
+#' @param res_table_name name of the table, eg "del_Geno1_vs_wt"
+#' @param res the results table object
+#' @param dir_outpath containing directory in which to write
+#' @param padj_thres p-adjusted value on which to threshold
+#' @param log2fc_tres the log2 fold change value on which to filter the
+#'   ABSOLUTE VALUE of the log2fc in table
+#'
 createNetworkMaps = function(res_table_name,
                              res,
                              dir_outpath = "",
@@ -92,6 +105,12 @@ createNetworkMaps = function(res_table_name,
 
 }
 
+#'
+#' for a list of results tables, make stringdb network subplots
+#'
+#' @param res_list_name name of the list
+#' @param res_list a list of results objects
+#'
 mapResultsTables = function(res_list_name, res_list){
 
   message(paste0("working on res_list: ", res_list_name))
