@@ -10,6 +10,8 @@ output:
   html_document
 ---
 
+# https://pubmed.ncbi.nlm.nih.gov/16943623/
+
 ```{r notebook_setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(
   collapse = FALSE,
@@ -26,6 +28,7 @@ knitr::opts_chunk$set(
 # note, kept here for convenience. Repeated so that it shows up in notebook
 library(DESeq2)
 library(gprofiler2)
+library(patchwork)
 library(tidyverse)
 library(DT)
 library(pheatmap)
@@ -35,12 +38,16 @@ library(here)
 ```{r}
 library(DESeq2)
 library(gprofiler2)
+library(patchwork)
 library(tidyverse)
 library(DT)
 library(pheatmap)
 library(here)
 
-dds = readRDS(here("data/mimic_cc_dds.rds"))
+dds = readRDS(here("data/mimic_cc_dds_lrt.rds"))
+
+shrunken_res_list = readRDS(here("data/shrunken_res_lists.rds"))
+
 yeast_gff = readRDS(Sys.getenv("yeast_gff"))
 ```
 
@@ -55,52 +62,19 @@ as_tibble(colData(dds)) %>%
   DT::datatable()
 ```
 
-# Modelling
-
-```{r model}
-design(dds) = ~ aminoAcid + genotype + aminoAcid:genotype
-
-dds = DESeq(dds, test = "LRT", reduced = ~ aminoAcid + genotype)
-
-interaction_term_res = results(dds)
-```
-
-# Plot gene with the most significant effect btwn aminoAcid groups
-
-```{r plt gene with most significant btwn group effect}
-# see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
-gene_plt <- plotCounts(dds, which.min(interaction_term_res$padj), 
-                   intgroup = c("aminoAcid","genotype"), 
-                   returnData = TRUE)
-
-ggplot(gene_plt,
-  aes(x = aminoAcid, y = count, color = genotype, group = genotype)) + 
-  geom_point() + stat_summary(fun=mean, geom="line") +
-  scale_y_log10() + 
-  ggtitle("THI4",
-          subtitle = "YGR144W")
-```
-
-# Effect in LysHisMetLeuUra
-
-```{r}
-res_aa = results(dds, 
-                 name="aminoAcid_LysHisMetLeuUra_vs_HisMetLeuUra",
-                 test="Wald")
-
-res_aa[which.min(res_aa$padj),]
-```
-
 # cluster significant genes by their profiles
 ```{r}
+
 betas = coef(dds)
 colnames(betas)
+topGenes <- head(order(results(dds)$padj),20)
+mat <- betas[topGenes, -1]
 
-topGenes <- head(order(interaction_term_res$padj),20)
-mat <- betas[topGenes, -c(1,2)]
-thr <- 3 
-mat[mat < -thr] <- -thr
+# set maximum LFC to 3 for vis purposes
+thr <- 3
+mat[abs(mat) < -thr] <- -thr
 mat[mat > thr] <- thr
+
 colnames(mat) = str_remove(colnames(mat), "genotype_")
 colnames(mat) = str_remove(colnames(mat), "genotype")
 colnames(mat) = str_remove(colnames(mat), "aminoAcid")
@@ -108,11 +82,161 @@ colnames(mat) = str_remove(colnames(mat), "aminoAcid")
 gene_ids = tibble(id = rownames(mat)) %>%
   left_join(as_tibble(yeast_gff), by = c('id' = 'locus_tag')) %>%
   distinct(id, .keep_all = TRUE)
-
 rownames(mat) = gene_ids$gene
 
-pheatmap(mat, breaks=seq(from=-thr, to=thr, length=101),
-         cluster_col=FALSE)
+plt = mat %>% 
+  as_tibble(mat, rownames = "gene_name") %>% 
+  pivot_longer(-gene_name, names_to = "coef", values_to = "effect") %>% 
+  mutate(coef = str_replace(coef, "_HisMetLeuUra_vs_LysHisMetLeuUra", "minus_lys")) %>%
+  mutate(coef = str_replace(coef, ".HisMetLeuUra", ".minus_lys")) %>%
+  mutate(coef = fct_relevel(as.factor(coef),
+                            "minus_lys",
+                           "EDS1_vs_WT", 
+                           "EDS1.minus_lys",
+                           "RGT1_vs_WT",
+                           "RGT1.minus_lys",
+                           "LYS14_vs_WT",
+                           "LYS14.minus_lys",
+                           "EDS1_RGT1_vs_WT",
+                           "EDS1_RGT1.minus_lys",
+                           "EDS1_LYS14_vs_WT",
+                           "EDS1_LYS14.minus_lys")) %>%
+  ggplot + 
+  geom_tile(aes(coef, gene_name, fill = effect), color = "black") +
+    scale_fill_gradient2(low = "#075AFF",
+                         mid = "#FFFFCC",
+                         high = "#FF0000") +
+    # coord_fixed() +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+          text = element_text(size = 20))
+
+  ggsave(here("plots/coefficient_heatmap.png"), plt, device = 'png')
+
+plt
+
+```
+
+# Plot gene with the most significant effect btwn aminoAcid groups
+
+```{r plt gene with most significant btwn group effect}
+# see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
+
+gene_index = which.min(interaction_term_res$padj) #which(rownames(interaction_term_res) == "YOR105W") #
+
+gene_plt <- plotCounts(dds, gene_index, 
+                   intgroup = c("genotype","aminoAcid"), 
+                   returnData = TRUE,
+                   normalized = TRUE) %>%
+  mutate(count = log2(count))
+
+ylim_min = 0
+ylim_max = 15
+
+plt1 = gene_plt %>%
+  filter(genotype %in% c("WT", "EDS1")) %>%
+ggplot(
+  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
+  geom_point() + 
+  stat_summary(fun=mean, geom="line") +
+  ylim(ylim_min,ylim_max)+
+  labs(y = "log2(norm_count)", x = "") 
+
+plt2 = gene_plt %>%
+  filter(genotype %in% c("WT", "RGT1")) %>%
+ggplot(
+  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
+  geom_point() + 
+  stat_summary(fun=mean, geom="line") +
+  ylim(ylim_min,ylim_max)+
+  labs(y = "", x = "genotype")
+
+plt4 = gene_plt %>%
+  filter(genotype %in% c("WT", "EDS1_RGT1")) %>%
+ggplot(
+  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
+  geom_point() + 
+  stat_summary(fun=mean, geom="line") +
+  ylim(ylim_min,ylim_max)+
+  labs(y = "", x = "")
+
+```
+
+```{r}
+ptchwrk = plt1 + plt2+ plt4 + plot_layout(guides = 'collect')
+
+gene_name = "THI4"
+gene_id = 'YGR144W'
+
+ptchwrk = ptchwrk + plot_annotation(
+  title = gene_name,
+  subtitle = gene_id
+) & theme_minimal()
+
+ggsave(here("plots/condition_specific_THI4.png"), ptchwrk, device = "pdf")
+
+ptchwrk
+```
+
+# Effect in LysHisMetLeuUra
+
+```{r}
+tst = shrunken_res_list$eds_rgt1_vs_eds1_minus_lys %>%
+  as.data.frame() %>% 
+  filter(padj < .05, abs(log2FoldChange) > 1)  %>%
+  select(log2FoldChange)
+
+pathview(
+  gene.data = tst,
+  gene.idtype = 'kegg',
+  pathway.id = "00300",
+  species = "sce",
+  out.suffix="tst2.2layer"
+)
+
+mapYeastPathway = function(name, res, pathway_id, lfc_thres){
+  
+  fltr_res = res %>%
+  as.data.frame() %>% 
+  filter(abs(log2FoldChange) > lfc_thres) %>%
+  select(log2FoldChange)
+    
+  
+  pathview(
+    gene.data = fltr_res,
+    gene.idtype = 'kegg',
+    pathway.id = pathway_id,
+    species = "sce",
+    out.suffix = name
+)
+
+}
+
+
+
+pathways = list(
+  lysine_pathway = "00300",
+  biosyn_aa = "01230",
+  glycolysis_gluconeogensis = "00010",
+  tca_cycle = "00020",
+  meiosis = '04113',
+  carbon_meta = '01200',
+  pentose_phosphate = '00030'
+)
+
+
+
+
+map(names(shrunken_res_list), ~mapYeastPathway(., shrunken_res_list[[.]], pathway_id = pathways$pentose_phosphate, lfc_thres = 1))
+
+```
+
+
+```{r}
+res_aa = results(lrt_dds, 
+                 contrast = c("aminoAcid","HisMetLeuUra", "LysHisMetLeuUra" ),
+                 test="Wald")
+
+res_aa[which.min(res_aa$padj),]
 ```
 
 # functional profiling
@@ -136,4 +260,71 @@ gprofiler2::publish_gostplot(p,
                                                   'KEGG:01200',
                                                   'WP:WP112',
                                                   'GO:0044281'))
+
+```
+
+# Eds1 activating effect in galactose with lysine
+
+```{r}
+
+```
+
+# which genes are DE in both EDS1 and RGT1? In one or the other? In double but not singles?
+
+# same with LYS
+
+# Eds1 has a repressive efect on glyoxylate cycle genes -- combine with TCA network
+
+# Eds1 has a repressive effect on TCA cycle genes
+
+# Fermentation pathways?
+
+# Eds1 and Rgt1 directly regulate many common targets in the same direction -- single deletion. double deletions?
+
+# Reguation of Eds1 by RGT1 or LYS1?
+
+Westholm et al found that Mig1 and Mig2 coregulate EDS1--yet to be determined in our double deletions.
+
+# Lysine biosynthesis
+
+Lysine Biosynthesis Genes--Revist
+Eds1 activates LYS4, ACO2, LYS9, LYS12, CTP1, LYS2, LYS1, LYS14 in low glucose -lysine.
+LYS4 repressed in galactose +/-lysine, ACO2 repressed in galactose -lysine, LYS2 repressed in high glucose.
+LYS4, LYS9, ACO2 are the only genes for which |LFC| > 1.
+
+# HXT expression
+
+Eds1 strongly and directly activates HXK1, where Rgt1 does not.
+
+Eds1 directly represses MTH1 in galactose with lysine.
+
+  Rgt1 represses in galactose with lysine, galactose without lysine, high glucose late.
+  
+  Mig1 represses in high glucose early, high glucose late.
+  Mig2 activates in high glucose early, represses in high glucose late.
+  Rgt1, Mig1, Mig2 all represses MTH1 according to Kuttykrishnan et al.
+  Eds1 indirectly represses STD1 in galactose with lysine and galactose without lysine.
+  Rgt1 represses STD1 in galactose with lysine, galactose without lysine, and low glucose.
+  Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
+  Rgt1 represses MIG1 in galactose +/- lysine.
+
+
+# Eds1 directly represses SKS1 in both galactose +/- lysine.
+SKS1 is a repressor kinase of SNF3 (Yeast Genome), a low glucose sensor required for induction of certain hexose transporters and which triggers inhibition of Rgt1 (Ozcan et al, 1998).
+
+# Eds1 directly activates CDC19 in galactose +lysine.
+CDC19 synthesizes pyruvate from phosphoenolpyruvate, the last step before TCA.
+Rgt1 directly represses CDC19 in our -lysine conditions, but activates in galactose +lysine.
+
+# Phosphate Regulation
+Eds1 causes highly significant repression of PHO11, PHO12, PHO89 (11-fold), SPL2 (32-fold) across all time points.
+Also causes highly significant activation of PHO89 in galactose +lysine.
+No evidence of direct binding.
+Rgt1 also causes highly significant repression of these genes in glucose -lysine.
+
+# Transcription factors
+Eds1 directly activates Mig3 in high glucose -lysine.
+Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
+Rgt1 represses MIG1 in galactose +/- lysine.
+Eds1 directly represses MTH1 in galactose with lysine.
 
