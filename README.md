@@ -1,9 +1,9 @@
 # Plots
 
-The plots directory contains the following subdirectories
+The `plots` directory contains the following subdirectories
 
 ```
-/home/chase/projects/eds1/mimic_cc_rnaseq/plots
+/plots
 ├── [4.0K]  compare_interaction
 │   ├── [4.0K]  EDS1_LYS14_vs_EDS1
 │   ├── [4.0K]  EDS1_LYS14_vs_EDS1_RGT1
