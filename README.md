@@ -8,7 +8,7 @@ to run, then you can use the scripts in the `R` directory, and the notebooks in
 the `notebooks` directory, to generate the same analyses, including the plots 
 in the `plots` directory. Below is a description of the directory structure:
 
-# Plots
+# plots
 
 The `plots` directory contains the following subdirectories
 
