@@ -10,6 +10,7 @@ output:
   html_document
 ---
 
+# paper on lysine pathway
 # https://pubmed.ncbi.nlm.nih.gov/16943623/
 
 ```{r notebook_setup, include=FALSE, echo=FALSE}
