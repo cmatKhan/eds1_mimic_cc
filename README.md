@@ -1,10 +1,3 @@
-
-# Purpose
-
-NOTE: NOT UPDATED -- PLEASE DON'T USE THIS.
-
-[Reproducible results of EDS1 analysis](https://cmatkhan.github.io/eds1_mimic_cc/)
-
 # Plots
 
 The plots directory contains the following subdirectories
