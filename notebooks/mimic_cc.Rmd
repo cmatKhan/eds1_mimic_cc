@@ -10,6 +10,9 @@ output:
   html_document
 ---
 
+# see this data set + chp on diaxic shift in gcr1 mutants
+# https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153842
+
 # paper on lysine pathway
 # https://pubmed.ncbi.nlm.nih.gov/16943623/
 
@@ -25,7 +28,7 @@ knitr::opts_chunk$set(
 
 # Setup environment
 
-```{r setup, include=FALSE, echo=TRUE}
+```{r setup, include=FALSE, echo=FALSE}
 # note, kept here for convenience. Repeated so that it shows up in notebook
 library(DESeq2)
 library(gprofiler2)
@@ -36,7 +39,7 @@ library(pheatmap)
 library(here)
 ```
 
-```{r}
+```{r, include=FALSE, echo=TRUE}
 library(DESeq2)
 library(gprofiler2)
 library(patchwork)
@@ -45,17 +48,25 @@ library(DT)
 library(pheatmap)
 library(here)
 
-dds = readRDS(here("data/mimic_cc_dds_lrt.rds"))
+library(ggVennDiagram)
+# note that to install this i needed
+# sudo apt install libpq5=12.9-0ubuntu0.20.04.1
+# sudo apt install libpq-dev=12.9-0ubuntu0.20.04.1
+# sudo apt install libgdal-dev 
 
-shrunken_res_list = readRDS(here("data/shrunken_res_lists.rds"))
+source(here("R/create_long_results_df.R"))
+source(here("R/gene_sets_of_interest.R"))
+source(here("R/get_set_heatmap.R"))
+source(here("R/venn_diagram_gene_lists.R"))
+source(here("R/plotGeneCount.R"))
 
-yeast_gff = readRDS(Sys.getenv("yeast_gff"))
+yeast_gff = rtracklayer::import(Sys.getenv("yeast_gff"))
 ```
 
 
 # Display design and replicate tally
 
-```{r tally and show design}
+```{r tally and show design, echo=FALSE}
 as_tibble(colData(dds)) %>%
   group_by(genotype, aminoAcid) %>%
   tally() %>%
@@ -64,7 +75,7 @@ as_tibble(colData(dds)) %>%
 ```
 
 # cluster significant genes by their profiles
-```{r}
+```{r, echo = FALSE}
 
 betas = coef(dds)
 colnames(betas)
@@ -119,8 +130,10 @@ plt
 
 # Plot gene with the most significant effect btwn aminoAcid groups
 
-```{r plt gene with most significant btwn group effect}
+```{r plt gene with most significant btwn group effect, echo = FALSE}
 # see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
+
+interaction_term_res = results(dds)
 
 gene_index = which.min(interaction_term_res$padj) #which(rownames(interaction_term_res) == "YOR105W") #
 
@@ -173,131 +186,252 @@ ptchwrk = ptchwrk + plot_annotation(
   subtitle = gene_id
 ) & theme_minimal()
 
-ggsave(here("plots/condition_specific_THI4.png"), ptchwrk, device = "pdf")
+# ggsave(here("plots/condition_specific_THI4.png"), ptchwrk, device = "pdf")
 
 ptchwrk
 ```
 
-# Effect in LysHisMetLeuUra
-
 ```{r}
-tst = shrunken_res_list$eds_rgt1_vs_eds1_minus_lys %>%
-  as.data.frame() %>% 
-  filter(padj < .05, abs(log2FoldChange) > 1)  %>%
-  select(log2FoldChange)
-
-pathview(
-  gene.data = tst,
-  gene.idtype = 'kegg',
-  pathway.id = "00300",
-  species = "sce",
-  out.suffix="tst2.2layer"
-)
-
-mapYeastPathway = function(name, res, pathway_id, lfc_thres){
-  
-  fltr_res = res %>%
-  as.data.frame() %>% 
-  filter(abs(log2FoldChange) > lfc_thres) %>%
-  select(log2FoldChange)
-    
-  
-  pathview(
-    gene.data = fltr_res,
-    gene.idtype = 'kegg',
-    pathway.id = pathway_id,
-    species = "sce",
-    out.suffix = name
-)
-
-}
-
-
-
-pathways = list(
-  lysine_pathway = "00300",
-  biosyn_aa = "01230",
-  glycolysis_gluconeogensis = "00010",
-  tca_cycle = "00020",
-  meiosis = '04113',
-  carbon_meta = '01200',
-  pentose_phosphate = '00030'
-)
-
-
-
-
-map(names(shrunken_res_list), ~mapYeastPathway(., shrunken_res_list[[.]], pathway_id = pathways$pentose_phosphate, lfc_thres = 1))
-
+# re-do this with new venn list
+# intersect(gene_lists_for_venn$down$singles$RGT1, gene_lists_for_venn$up$singles$EDS1)
 ```
 
+# Genes which change in different directions
 
-```{r}
-res_aa = results(lrt_dds, 
-                 contrast = c("aminoAcid","HisMetLeuUra", "LysHisMetLeuUra" ),
-                 test="Wald")
+* There are no genes which change in different directions in EDS1 and RGT1.  
 
-res_aa[which.min(res_aa$padj),]
-```
+* [YPL187W](https://www.yeastgenome.org/locus/S000006108) is up in the EDS1 KO and down in LYS14.
 
-# functional profiling
+Mating pheromone alpha-factor, made by alpha cells; interacts with mating type a cells to induce cell cycle arrest and other responses leading to mating; also encoded by MF(ALPHA)2, although MF(ALPHA)1 produces most alpha-factor; binds copper(II) ions 3 4 5 6 8 
 
-URA1 to OPT1 show both large effects in the presence of the double KO EDS1 and LYS14, and large drops in the corresponding conditions in which lysine is present. I cherry picked some terms which stood out. All of the terms are metabolism related.
+* [YBR296C, PHO89](https://www.yeastgenome.org/locus/S000000500) is down in EDS1 and 
+up in LYS14
 
-```{r}
-gostres <- gost(query = c('URA1','PFK2','SER33',
-                          'SAM1','THI20','THI2',
-                          'THI4','TDH2','ENO2',
-                          'CDC19','PGK1','LYS9',
-                          'ADE17','ADE2','OPT1'),
-                organism = "scerevisiae")
+Plasma membrane Na+/Pi cotransporter; active in early growth phase; similar to phosphate transporters of Neurospora crassa; transcription regulated by inorganic phosphate concentrations and Pho4p; mutations in related human transporter genes hPit1 and hPit2 are associated with hyperphosphatemia-induced calcification of vascular tissue and familial idiopathic basal ganglia calcification 1 2 3 4 
 
-p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+* there are no genes which change in different directions between RGT1 and LYS14
 
-# note: not sure why this prints twice in notebook
-gprofiler2::publish_gostplot(p,
-                             highlight_terms = c('TF:M00337',
-                                                 'TF:M00046',
-                                                  'KEGG:01200',
-                                                  'WP:WP112',
-                                                  'GO:0044281'))
-
-```
-
-# Eds1 activating effect in galactose with lysine
-
-```{r}
-
-```
-
-# which genes are DE in both EDS1 and RGT1? In one or the other? In double but not singles?
-
-# same with LYS
-
-# Eds1 has a repressive efect on glyoxylate cycle genes -- combine with TCA network
-
-# Eds1 has a repressive effect on TCA cycle genes
-
-# Fermentation pathways?
-
-# Eds1 and Rgt1 directly regulate many common targets in the same direction -- single deletion. double deletions?
-
-# Reguation of Eds1 by RGT1 or LYS1?
-
-Westholm et al found that Mig1 and Mig2 coregulate EDS1--yet to be determined in our double deletions.
-
-# Lysine biosynthesis
+# Lysine Pathway
 
 Lysine Biosynthesis Genes--Revist
 Eds1 activates LYS4, ACO2, LYS9, LYS12, CTP1, LYS2, LYS1, LYS14 in low glucose -lysine.
 LYS4 repressed in galactose +/-lysine, ACO2 repressed in galactose -lysine, LYS2 repressed in high glucose.
 LYS4, LYS9, ACO2 are the only genes for which |LFC| > 1.
 
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$lysine_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_", "EDS1_LYS14_"), 
+              c('plus_lys', 'minus_lys'), "lysine genes -- unfiltered for lfc or padj")
+```
+
+
+# same with LYS
+
+# Eds1 has a repressive efect on glyoxylate cycle genes -- combine with TCA network
+
+## Eds1 has a repressive effect on TCA cycle genes
+
+TCA genes should be 'on' in WT galactose. If the TCA genes go up when EDS1 is 
+KO'd, then EDS1 does have a repressive effect on TCA genes. Another factor to 
+this, however, is that overtime in galactose, we probably expect TCA genes to go 
+up.
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$tca_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "tca cycle genes -- unfiltered for lfc or padj")
+```
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$membrane_transport_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "membrane transport -- unfiltered for lfc or padj")
+```
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$response_to_glucose_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "response to glucose -- unfiltered for lfc or padj")
+```
+
+# Eds1 directly represses SKS1 in both galactose +/- lysine.
+SKS1 is a repressor kinase of SNF3 (Yeast Genome), a low glucose sensor required for induction of certain hexose transporters and which triggers inhibition of Rgt1 (Ozcan et al, 1998).
+
+CHASE NOTE: I want to review that SKS1 is a repressor of SNF3. SGD says it is 
+indepdendent of the SNF3 pathway, and that SKS1 is required in low gluc in 
+SNF3 null strains. Confusing b/c SKS means suppressor kinase of snf3.
+
+ The snf3 genomic suppressors, rgt1, RGT2 and ssn6, are also capable of suppressing snf3 associated growth defects in a strain lacking sks1. 
+
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$hexose_transmem_trans_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "hexose tarnsmembrane transporter genes -- unfiltered for lfc or padj")
+```
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$glucose_transmem_trans_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "glucose transmembrane transport genes -- unfiltered for lfc or padj")
+```
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$glucose_transmem_transport_activity_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "glucose transmem trans activity -- unfiltered for lfc or padj")
+```
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$glucose_import_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "glucose import -- unfiltered for lfc or padj")
+```
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$hexokinase_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), 
+              "hexokinase -- unfiltered for lfc or padj")
+```
+
+
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$glyoxylate_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "glyoxylate genes -- unfiltered for lfc or padj")
+
+```
+
+# Fermentation pathways?
+
+These should be 'off' in galactose. If perturbing the genes in question cause 
+fermentation pathway genes to increase, then it is evidence that these genes 
+have a role in fermentation
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$anaerobic_resp_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "anaerobic respiration -- unfiltered for lfc or padj")
+```
+
+
+# Aerobic respiration pathways
+
+These should be 'on' in galactose, presumably. Down regulation would point to 
+genes that a given perturbed locus has a positive impact on. up regulation points 
+to genes which a given perturbed locus is supressing. Expecting few of those?
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$aerobic_resp_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "aerobic respiration -- unfiltered for lfc or padj")
+```
+
+
+```{r}
+
+getSetHeatMap(long_res_df, gene_set_df_list$glycolytic_genes, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "glycolysis genes -- unfiltered for lfc or padj")
+
+```
+
+* Eds1 strongly and directly activates HXK1, where Rgt1 does not.
+
+* Eds1 directly activates CDC19 in galactose +lysine.
+
+CDC19 synthesizes pyruvate from phosphoenolpyruvate, the last step before TCA.
+Rgt1 directly represses CDC19 in our -lysine conditions, but activates in galactose +lysine.
+
+CHASE QUESTION: why would the presence/absence of lysine affect TCA cycle?
+
+# Eds1 and Rgt1 directly regulate many common targets in the same direction
+
+```{r}
+venn$plots$minus_lys$up$singles
+```
+
+
+
+```{r}
+venn$plots$minus_lys$down$singles
+```
+
+```{r}
+venn$plots$plus_lys$up$singles
+```
+
+```{r}
+venn$plots$plus_lys$down$singles
+```
+
+
+intersect top up/down genes in eds1/rgt1, do GO
+
+Do the same with complements
+
+# Reguation of Eds1 by RGT1 or LYS14?
+
+```{r}
+
+bind_rows(shrunken_res_lists$plus_lys$LYS14 %>%
+              as_tibble(rownames = 'gene') %>%
+              select(gene, log2FoldChange, padj) %>%
+              mutate(condition = 'plus_lys',
+                     genotype = 'LYS14'),
+            shrunken_res_lists$minus_lys$LYS14 %>%
+              as_tibble(rownames = 'gene') %>%
+              select(gene, log2FoldChange, padj) %>%
+              mutate(condition = 'minus_lys',
+                     genotype = 'LYS14')
+            ) %>%
+  filter(gene %in% c('YKL038W', 'YBR033W')) %>%
+  ggplot() + 
+  geom_bar(aes(interaction(condition, genotype), log2FoldChange, fill = gene), stat='identity', position = 'dodge') + ylim(-.5, .5)
+
+```
+
+```{r}
+
+dds_vst = varianceStabilizingTransformation(dds, blind=FALSE)
+
+assays(dds_vst)[[1]] %>%
+  as_tibble(rownames = 'gene') %>% 
+  pivot_longer(-gene, names_to = 'sample', values_to = 'vst') %>%
+  left_join(as_tibble(colData(dds_vst))) %>%
+  filter(gene %in% c('YKL038W', 'YBR033W'), genotype %in% c('WT', "LYS14")) %>%
+  ggplot() + 
+  geom_boxplot(aes(interaction(genotype, aminoAcid), vst, fill = gene)) + 
+  geom_point(aes(interaction(genotype, aminoAcid), vst))
+  
+
+```
+
+
 # HXT expression
 
-Eds1 strongly and directly activates HXK1, where Rgt1 does not.
+heatmap of all HXT genes
+
+# RGT1/MIG pathway genes
+
+heatmap of these genes
 
 Eds1 directly represses MTH1 in galactose with lysine.
+  This needs binding data
 
   Rgt1 represses in galactose with lysine, galactose without lysine, high glucose late.
   
@@ -309,23 +443,100 @@ Eds1 directly represses MTH1 in galactose with lysine.
   Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
   Rgt1 represses MIG1 in galactose +/- lysine.
 
+```{r}
+plotGeneCountCustom(dds, 'YBR033W', 'EDS1')$combined
+```
 
-# Eds1 directly represses SKS1 in both galactose +/- lysine.
-SKS1 is a repressor kinase of SNF3 (Yeast Genome), a low glucose sensor required for induction of certain hexose transporters and which triggers inhibition of Rgt1 (Ozcan et al, 1998).
+```{r}
+plotGeneCountCustom(dds, 'YKL038W', 'RGT1')$combined
+```
 
-# Eds1 directly activates CDC19 in galactose +lysine.
-CDC19 synthesizes pyruvate from phosphoenolpyruvate, the last step before TCA.
-Rgt1 directly represses CDC19 in our -lysine conditions, but activates in galactose +lysine.
+```{r}
+plotGeneCountCustom(dds, 'YGL035C', 'MIG1')$combined
+```
+
+```{r}
+plotGeneCountCustom(dds, 'YGL209W', 'MIG2')$combined
+```
+
+```{r}
+plotGeneCountCustom(dds, 'YGL209W', 'MIG2')$combined
+```
 
 # Phosphate Regulation
-Eds1 causes highly significant repression of PHO11, PHO12, PHO89 (11-fold), SPL2 (32-fold) across all time points.
-Also causes highly significant activation of PHO89 in galactose +lysine.
-No evidence of direct binding.
-Rgt1 also causes highly significant repression of these genes in glucose -lysine.
+
+* Eds1 causes highly significant repression of PHO11, PHO12, PHO89 (11-fold), SPL2 (32-fold) across all time points.
+* Note: not so true in galac, though there is a down reg and what seems to be an 
+  additive effect
+* no evidence of direct binding
+
+* Rgt1 also causes highly significant repression of these genes in glucose -lysine. 
+  remains to be checked
+
+```{r}
+plotGeneCountCustom(dds, 'YBR296C', 'PHO89')$combined
+```
+```{r}
+plotGeneCountCustom(dds, 'YAR071W', 'PHO11')$combined
+```
+```{r}
+plotGeneCountCustom(dds, 'YHR215W', 'PHO12')$combined
+```
+```{r}
+plotGeneCountCustom(dds, 'YHR136C', 'SPL2')$combined
+```
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$acid_phosphate_activity, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "acid phosphate activity -- unfiltered for lfc or padj")
+```
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$phosphate_ion_transmem_transport, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "phosphate_ion_transmem_transport -- unfiltered for lfc or padj")
+```
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$phoscontaining_compound_meta_proc, 
+              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c('plus_lys', 'minus_lys'), "phoscontaining_compound_meta_proc -- unfiltered for lfc or padj")
+```
+
 
 # Transcription factors
 Eds1 directly activates Mig3 in high glucose -lysine.
+
+```{r}
+plotGeneCountCustom(dds, 'YER028C', 'MIG3')$combined
+```
+
 Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
+(see plot above)
+
 Rgt1 represses MIG1 in galactose +/- lysine.
+(see plot above)
+
 Eds1 directly represses MTH1 in galactose with lysine.
+```{r}
+plotGeneCountCustom(dds, 'YDR277C', 'MTH1')$combined
+```
+
+# NOTES
+
+## diaxic shift
+Following glucose exhaustion, cells switch to oxygenic respiration 
+(a.k.a. "diauxic shift"), which allows catabolizing ethanol and the other 
+carbon compounds via the TCA cycle and oxidative phosphorylation in the 
+mitochondria.
+
+MIG1 represses genes whose expression is shut off when glucose is present such 
+as those enconding enzymes for sugars maltose, sucrose and galactose
+
+When cells become limited for glucose, Mig1p is phosphorylated by the Snf1 kinase 
+complex, composed of the Snf1 kinase catalytic subunit, the gamma subunit Snf4p, 
+and a beta subunit encoded by SIP1, SIP2, or GAL83 (5). 
+
+cite: https://services.bio.ifi.lmu.de:1047/diauxicGRN/
 

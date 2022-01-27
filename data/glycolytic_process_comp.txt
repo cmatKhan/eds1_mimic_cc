@@ -1,0 +1,248 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:97591	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000212670	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with SPAC4H3.10c	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with 3336	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with 3337	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with CDC19	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0AD61	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with P21599	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IBA with Q2RAK2	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR001697	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015793	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015806	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR018209	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR001672	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR018189	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR023096	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:95797	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000157839	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with PGI1	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6T1	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with P42862	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with P42863	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IBA with P9WN69	computational	GO_Central	2018-04-13	Gaudet P, et al. (2011) PMID:21873635
+PDB1	YBR221C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000455350	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2670	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2796	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with GLK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK2	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:97555	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:97563	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000150497	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with 619878	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with PGK1	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with locus:2205215	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with locus:2206410	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with P00558	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A799	computational	GO_Central	2018-04-11	Gaudet P, et al. (2011) PMID:21873635
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR001576	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015824	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015911	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR036043	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GPM2	YDL021W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR005952	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GPM2	YDL021W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+GPM2	YDL021W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0086355	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000474559	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with SPCC24B10.21	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with TPI1	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A858	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IBA with P9WG43	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR022896	computational	InterPro	2022-01-15	DDB, et al. (2001)
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000455350	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2670	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2796	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with GLK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+EMI2	YDR516C	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK2	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PDA1	YER178W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000455350	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2670	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2796	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with GLK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK2	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000455350	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2670	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2796	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with GLK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK2	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001091	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001092	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:95653	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000089737	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2661	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH3	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH1	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with locus:2103085	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A9B2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000023	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR009161	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015912	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR022953	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR035966	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IEA with UR000166259	computational	UniProt	2022-01-15	UniProt Curators (2015)
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with CAL0000185645	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:2441717	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000224401	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2553	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2554	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO2	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO1	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with P06733	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6P9	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000941	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with CAL0000185645	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:2441717	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000224401	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2553	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2554	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO2	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO1	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with P06733	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6P9	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000941	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001091	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001092	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:95653	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000089737	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2661	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH3	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH1	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with locus:2103085	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A9B2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001091	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBgn0001092	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:95653	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000089737	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2661	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH3	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH1	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with TDH2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with locus:2103085	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A9B2	computational	GO_Central	2021-11-10	Gaudet P, et al. (2011) PMID:21873635
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR006411	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN001254576	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IBA with FBA1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0AB71	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+GPM1	YKL152C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+GPM1	YKL152C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+GPM1	YKL152C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR005952	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000455350	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2670	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2796	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with GLK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+YLR446W	YLR446W	involved in	GO:0006096	glycolytic process	biological process		IBA with HXK2	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000023	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR009161	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015912	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR022953	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR035966	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IEA with UR000166259	computational	UniProt	2022-01-15	UniProt Curators (2015)
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000941	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with CAL0000185645	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:2441717	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000224401	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2553	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2554	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO2	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO1	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with P06733	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6P9	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ERR3	YMR323W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+GPM3	YOL056W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR005952	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GPM3	YOL056W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+GPM3	YOL056W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:97591	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000212670	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with SPAC4H3.10c	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with 3336	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with 3337	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with CDC19	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0AD61	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with P21599	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IBA with Q2RAK2	computational	GO_Central	2020-09-29	Gaudet P, et al. (2011) PMID:21873635
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR001697	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015793	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR015806	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PYK2	YOR347C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR018209	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with CAL0000185645	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:2441717	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000224401	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2553	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with 2554	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO2	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO1	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with P06733	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6P9	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000941	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ERR1	YOR393W	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IEA with KW-0324	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with CAL0000185645	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with MGI:2441717	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with PTN000224401	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2553	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with 2554	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO2	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with ENO1	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with P06733	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IBA with P0A6P9	computational	GO_Central	2020-04-06	Gaudet P, et al. (2011) PMID:21873635
+ERR2	YPL281C	involved in	GO:0006096	glycolytic process	biological process		IEA with IPR000941	computational	InterPro	2022-01-15	DDB, et al. (2001)

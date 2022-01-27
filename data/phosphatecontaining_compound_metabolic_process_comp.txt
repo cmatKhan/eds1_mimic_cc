@@ -1,0 +1,17 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+IPP1	YBR011C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IBA with PTN000032431	computational	GO_Central	2018-03-06	Gaudet P, et al. (2011) PMID:21873635
+IPP1	YBR011C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IBA with P9WI55	computational	GO_Central	2018-03-06	Gaudet P, et al. (2011) PMID:21873635
+IPP1	YBR011C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IEA with IPR008162	computational	InterPro	2022-01-15	DDB, et al. (2001)
+IPP1	YBR011C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IEA with IPR036649	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PPA2	YMR267W	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IEA with IPR008162	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PPA2	YMR267W	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IEA with IPR036649	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PPA2	YMR267W	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IBA with PTN000032431	computational	GO_Central	2018-03-06	Gaudet P, et al. (2011) PMID:21873635
+PPA2	YMR267W	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IBA with P9WI55	computational	GO_Central	2018-03-06	Gaudet P, et al. (2011) PMID:21873635

@@ -3,45 +3,23 @@ library(DESeq2)
 library(tidyverse)
 library(here)
 
+source(here("R/utils.R"))
+
 # read in results
 shrunken_res_lists = readRDS(here("data/shrunken_res_lists.rds"))
 
-# use pathview::pathview to vis the lysine pathway + DE data
-mapYeastPathway = function(name, res, pathway_id, lfc_thres){
+# note: not changed from testing -- the results in the actual plots results are
+# still from the presentation 2021 01 17
+outdir = "plots/minus_lys/tca_pathway"
+dir.create(outdir)
+setwd(outdir)
 
-  fltr_res = res %>%
-    as.data.frame() %>%
-    filter(abs(log2FoldChange) > lfc_thres,
-           padj < .05) %>%
-    select(log2FoldChange)
+# THERE IS AN ERROR IN THE MAPPING FROM ID TO SYMBOL IN AT LEAST THE TCA CYCLE
 
-
-  pathview(
-    gene.data = fltr_res,
-    gene.idtype = 'kegg',
-    pathway.id = pathway_id,
-    species = "sce",
-    out.suffix = name,
-    map.symbol = FALSE
-  )
-
-}
-
-# from scer KEGG
-pathways = list(
-  lysine_pathway = "00300",
-  biosyn_aa = "01230",
-  glycolysis_gluconeogensis = "00010",
-  tca_cycle = "00020",
-  meiosis = '04113',
-  carbon_meta = '01200',
-  pentose_phosphate = '00030'
-)
-
-
-setwd("plots/plus_lys/lysine_pathway_kegg/")
-
-map(names(shrunken_res_lists$plus_lys),
-    ~mapYeastPathway(., shrunken_res_lists$plus_lys[[.]], pathway_id = pathways$lysine_pathway, lfc_thres = .05))
+# note: this was changed since presentation to the utils function. thershold was also
+# accidently set to .05. changed to .5. doesn't affect results * much * -- removed
+# one gene which had lfc of ~-.4
+x = map(names(shrunken_res_lists$minus_lys),
+  ~mapKEGGpathway(., shrunken_res_lists$minus_lys[[.]], pathway_id = pathways$tca_cycle, lfc_thres = 1))
 
 setwd(here())

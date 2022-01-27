@@ -1,0 +1,40 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+LYS2	YBR115C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA with IPR011872	computational	InterPro	2022-01-15	DDB, et al. (2001)
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN002231832	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with SPBC1105.02c	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS21	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS20	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN002231832	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with SPBC1105.02c	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS21	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS20	computational	GO_Central	2017-11-03	Gaudet P, et al. (2011) PMID:21873635
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA with IPR011872	computational	InterPro	2022-01-15	DDB, et al. (2001)
+LYS4	YDR234W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS5	YGL154C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN000259224	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LYS5	YGL154C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with SPAC17C9.02c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LYS5	YGL154C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+ARO8	YGL202W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN000922988	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+ARO8	YGL202W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with A0A1D8PG20	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+ARO8	YGL202W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with A0A1D8PMC5	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+ARO8	YGL202W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ARO9	YHR137W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN000922988	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+ARO9	YHR137W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with A0A1D8PG20	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+ARO9	YHR137W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with A0A1D8PMC5	computational	GO_Central	2018-10-29	Gaudet P, et al. (2011) PMID:21873635
+LYS12	YIL094C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS1	YIR034C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ACO2	YJL200C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LYS9	YNR050C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with PTN000123605	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LYS9	YNR050C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with SPAC227.18	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LYS9	YNR050C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IBA with LYS9	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LYS9	YNR050C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)

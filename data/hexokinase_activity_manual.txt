@@ -1,0 +1,16 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+EMI2	YDR516C	enables	GO:0004396	hexokinase activity	molecular function	has input ATP, has output ADP, has input magnesium(2+), has output D-hexose 6-phosphate, part of hexose metabolic process	IDA	manually curated	SGD	2021-11-12	Umekawa M, et al. (2020) PMID:34354536
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IDA	manually curated	SGD	2003-07-31	Bianconi ML (2003) PMID:12611889
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IDA	manually curated	SGD	2006-11-17	Lobo Z and Maitra PK (1977) PMID:332086
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IMP	manually curated	SGD	2001-01-18	Walsh RB, et al. (1983) PMID:6341351
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IDA	manually curated	SGD	2003-07-31	Bianconi ML (2003) PMID:12611889
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IDA	manually curated	SGD	2006-11-17	Lobo Z and Maitra PK (1977) PMID:332086
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IMP	manually curated	SGD	2001-01-18	Walsh RB, et al. (1983) PMID:6341351

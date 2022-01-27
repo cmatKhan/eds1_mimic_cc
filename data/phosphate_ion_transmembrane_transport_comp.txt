@@ -1,0 +1,24 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+PHO89	YBR296C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PTN000120970	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO89	YBR296C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PHO89	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO89	YBR296C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with P0AFJ7	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO89	YBR296C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with P43676	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+ERD1	YDR414C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IEA with phosphate ion transmembrane transporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+PIC2	YER053C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PTN002903451	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+PIC2	YER053C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PIC2	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+PIC2	YER053C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with MIR1	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+SYG1	YIL047C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IEA with phosphate ion transmembrane transporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+MIR1	YJR077C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PTN002903451	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+MIR1	YJR077C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PIC2	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+MIR1	YJR077C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with MIR1	computational	GO_Central	2018-04-20	Gaudet P, et al. (2011) PMID:21873635
+DIC1	YLR348C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with FBgn0027610	computational	GO_Central	2020-10-01	Gaudet P, et al. (2011) PMID:21873635
+DIC1	YLR348C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with FBgn0033248	computational	GO_Central	2020-10-01	Gaudet P, et al. (2011) PMID:21873635
+DIC1	YLR348C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IBA with PTN000756618	computational	GO_Central	2020-10-01	Gaudet P, et al. (2011) PMID:21873635

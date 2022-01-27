@@ -1,0 +1,23 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+HXT15	YDL245C	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT7	YDR342C	involved in	GO:0008645	hexose transmembrane transport	biological process		TAS	manually curated	SGD	2001-10-16	Wieczorke R, et al. (1999) PMID:10618490
+HXT6	YDR343C	involved in	GO:0008645	hexose transmembrane transport	biological process		TAS	manually curated	SGD	2001-10-16	Wieczorke R, et al. (1999) PMID:10618490
+HXT3	YDR345C	involved in	GO:0008645	hexose transmembrane transport	biological process		TAS	manually curated	SGD	2001-10-16	Wieczorke R, et al. (1999) PMID:10618490
+HXT13	YEL069C	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT10	YFL011W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT4	YHR092C	involved in	GO:0008645	hexose transmembrane transport	biological process		TAS	manually curated	SGD	2001-10-16	Wieczorke R, et al. (1999) PMID:10618490
+HXT5	YHR096C	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT8	YJL214W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT9	YJL219W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT16	YJR158W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT14	YNL318C	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT17	YNR072W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT11	YOL156W	involved in	GO:0008645	hexose transmembrane transport	biological process		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490

@@ -12,6 +12,7 @@ dds$aminoAcid = relevel(dds$aminoAcid, "LysHisMetLeuUra")
 
 # run deseq
 design(dds) = ~ genotype + aminoAcid + genotype:aminoAcid
+
 dds = DESeq(
   dds,
   test = "LRT",

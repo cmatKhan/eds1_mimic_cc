@@ -1,0 +1,21 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+GLK1	YCL040W	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR001312	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GLK1	YCL040W	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+EMI2	YDR516C	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR001312	computational	InterPro	2022-01-15	DDB, et al. (2001)
+EMI2	YDR516C	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR001312	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXK1	YFR053C	enables	GO:0004396	hexokinase activity	molecular function		IEA with 2.7.1.1	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IEA with 2.7.1.1	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR001312	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXK2	YGL253W	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR019807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YLR446W	YLR446W	enables	GO:0004396	hexokinase activity	molecular function		IEA with IPR001312	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YLR446W	YLR446W	enables	GO:0004396	hexokinase activity	molecular function		IEA with 2.7.1.1	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)

@@ -1,0 +1,44 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IEA with IPR000883	computational	InterPro	2022-01-15	DDB, et al. (2001)
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IBA with FBgn0013674	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000046094	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IBA with COX1	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IBA with P0ABI8	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI2	Q0055	involved in	GO:0009060	aerobic respiration	biological process		IEA with IPR000883	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AI3	Q0060	involved in	GO:0009060	aerobic respiration	biological process		IEA with IPR000883	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AI3	Q0060	involved in	GO:0009060	aerobic respiration	biological process		IBA with FBgn0013674	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI3	Q0060	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000046094	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI3	Q0060	involved in	GO:0009060	aerobic respiration	biological process		IBA with COX1	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI3	Q0060	involved in	GO:0009060	aerobic respiration	biological process		IBA with P0ABI8	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI4	Q0065	involved in	GO:0009060	aerobic respiration	biological process		IBA with FBgn0013674	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI4	Q0065	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000046094	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI4	Q0065	involved in	GO:0009060	aerobic respiration	biological process		IBA with COX1	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI4	Q0065	involved in	GO:0009060	aerobic respiration	biological process		IBA with P0ABI8	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI4	Q0065	involved in	GO:0009060	aerobic respiration	biological process		IEA with IPR000883	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AI5_ALPHA	Q0070	involved in	GO:0009060	aerobic respiration	biological process		IBA with FBgn0013674	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI5_ALPHA	Q0070	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000046094	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI5_ALPHA	Q0070	involved in	GO:0009060	aerobic respiration	biological process		IBA with COX1	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI5_ALPHA	Q0070	involved in	GO:0009060	aerobic respiration	biological process		IBA with P0ABI8	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+AI5_ALPHA	Q0070	involved in	GO:0009060	aerobic respiration	biological process		IEA with IPR000883	computational	InterPro	2022-01-15	DDB, et al. (2001)
+COX3	Q0275	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000150044	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX3	Q0275	involved in	GO:0009060	aerobic respiration	biological process		IBA with SPMIT.04	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX3	Q0275	involved in	GO:0009060	aerobic respiration	biological process		IBA with COX3	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+COX3	Q0275	involved in	GO:0009060	aerobic respiration	biological process		IBA with P0ABJ3	computational	GO_Central	2020-08-07	Gaudet P, et al. (2011) PMID:21873635
+RIB1	YBL033C	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN001084664	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+RIB1	YBL033C	involved in	GO:0009060	aerobic respiration	biological process		IBA with RIB3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+COR1	YBL045C	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN001373471	computational	GO_Central	2018-11-30	Gaudet P, et al. (2011) PMID:21873635
+COR1	YBL045C	involved in	GO:0009060	aerobic respiration	biological process		IBA with COR1	computational	GO_Central	2018-11-30	Gaudet P, et al. (2011) PMID:21873635
+RIB3	YDR487C	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN001084664	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+RIB3	YDR487C	involved in	GO:0009060	aerobic respiration	biological process		IBA with RIB3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+SDH2	YLL041C	involved in	GO:0009060	aerobic respiration	biological process		IBA with FBgn0014028	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+SDH2	YLL041C	involved in	GO:0009060	aerobic respiration	biological process		IBA with PTN000229864	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+SDH2	YLL041C	involved in	GO:0009060	aerobic respiration	biological process		IBA with SDH2	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+SDH2	YLL041C	involved in	GO:0009060	aerobic respiration	biological process		IBA with P07014	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635

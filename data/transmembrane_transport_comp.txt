@@ -1,0 +1,1089 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+COX3	Q0275	involved in	GO:0055085	transmembrane transport	biological process		IEA with oxidoreduction-driven active transmembrane transporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+FLC2	YAL053W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN002031037	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC2	YAL053W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F7.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC2	YAL053W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC1322.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC2	YAL053W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLC2	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SEO1	YAL067C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PET9	YBL030C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FUI1	YBL042C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FUI1	YBL042C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FUI1	YBL042C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLR1	YBR008C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FUR4	YBR021W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FUR4	YBR021W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FUR4	YBR021W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+BAP2	YBR068C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BAP2	YBR068C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TAT1	YBR069C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TAT1	YBR069C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AAC3	YBR085W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:2142149	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:2145890	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000267334	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 1310786	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with A0A0B4JCY1	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q4KMQ2	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+IST2	YBR086C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q5XXA6	computational	GO_Central	2021-05-29	Gaudet P, et al. (2011) PMID:21873635
+AGP2	YBR132C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AGP2	YBR132C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+RIM2	YBR192W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VHC1	YBR235W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VVS1	YBR241C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VVS1	YBR241C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VVS1	YBR241C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YBR287W	YBR287W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004776	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CTP1	YBR291C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SUL1	YBR294W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001902	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MAL31	YBR298C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MAL31	YBR298C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MAL31	YBR298C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VMA9	YCL005W-A	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000262636	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+VMA9	YCL005W-A	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMA9	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+VMA9	YCL005W-A	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15342	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+VMA9	YCL005W-A	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q8NHE4	computational	GO_Central	2020-08-08	Gaudet P, et al. (2011) PMID:21873635
+AGP1	YCL025C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AGP1	YCL025C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX1	YCL073C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+YCR023C	YCR023C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FEN2	YCR028C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PHO87	YCR037C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004680	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ERS1	YCR075C	involved in	GO:0055085	transmembrane transport	biological process		IEA with symporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+GIT1	YCR098C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GIT1	YCR098C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MCH1	YDL054C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HEM25	YDL119C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VCX1	YDL128W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004837	computational	InterPro	2022-01-15	DDB, et al. (2001)
+RGT2	YDL138W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+RGT2	YDL138W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+RGT2	YDL138W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNF3	YDL194W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNF3	YDL194W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNF3	YDL194W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YDL199C	YDL199C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YDL199C	YDL199C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YDL199C	YDL199C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YDL206W	YDL206W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004837	computational	InterPro	2022-01-15	DDB, et al. (2001)
+UGA4	YDL210W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002293	computational	InterPro	2022-01-15	DDB, et al. (2001)
+UGA4	YDL210W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT15	YDL245C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT15	YDL245C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT15	YDL245C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH2	YDL247W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH2	YDL247W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH2	YDL247W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNQ2	YDR011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BAP3	YDR046C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BAP3	YDR046C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA4	YDR119W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+SSY1	YDR160W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MSC2	YDR205W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002524	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YDR338C	YDR338C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002528	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT7	YDR342C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT7	YDR342C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT7	YDR342C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT6	YDR343C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT6	YDR343C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT6	YDR343C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT3	YDR345C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT3	YDR345C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT3	YDR345C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BCS1	YDR375C	involved in	GO:0055085	transmembrane transport	biological process		IEA with ATPase-coupled transmembrane transporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+CIN10	YDR387C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CIN10	YDR387C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CIN10	YDR387C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR15	YDR406W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NHX1	YDR456W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004709	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NHX1	YDR456W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR006153	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ITR1	YDR497C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ITR1	YDR497C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ITR1	YDR497C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GNP1	YDR508C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GNP1	YDR508C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+STL1	YDR536W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+STL1	YDR536W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+STL1	YDR536W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YEA4	YEL004W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR013657	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YEA6	YEL006W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YEA6	YEL006W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR044712	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CAN1	YEL063C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CAN1	YEL063C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+HXT13	YEL069C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT13	YEL069C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT13	YEL069C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HVG1	YER039C	involved in	GO:0055085	transmembrane transport	biological process		IEA with antiporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+FCY2	YER056C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY2	YER056C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY2	YER056C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR026030	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY21	YER060W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY21	YER060W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY21	YER060W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR026030	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY22	YER060W-A	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY22	YER060W-A	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FCY22	YER060W-A	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR026030	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT10	YFL011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT10	YFL011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT10	YFL011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YFL040W	YFL040W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YFL040W	YFL040W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ALR2	YFL050C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002523	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AQY3	YFL054C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000425	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AGP3	YFL055W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AGP3	YFL055W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MRX20	YFR045W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HNM1	YGL077C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002293	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HNM1	YGL077C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VPS73	YGL104C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VPS73	YGL104C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN002031037	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F7.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC1322.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLC2	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+TPN1	YGL186C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPN1	YGL186C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPN1	YGL186C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR026030	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ZRT1	YGL255W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003689	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MUP1	YGR055W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002293	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VHT1	YGR065C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPC1	YGR096W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VSB1	YGR125W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001902	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO2	YGR138C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HIP1	YGR191W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HIP1	YGR191W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CCH1	YGR217W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005821	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AZR1	YGR224W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TNA1	YGR260W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YOR1	YGR281W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MAL11	YGR289C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MAL11	YGR289C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YHL008C	YHL008C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000292	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DUR3	YHL016C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001734	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VMR1	YHL035C	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+MUP3	YHL036W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002293	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN1	YHL040C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARN2	YHL047C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+LEU5	YHR002W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ERC1	YHR032W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002528	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+YHK8	YHR048W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HXT4	YHR092C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT4	YHR092C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT4	YHR092C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT1	YHR094C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT1	YHR094C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT1	YHR094C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT5	YHR096C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT5	YHR096C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT5	YHR096C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YIA6	YIL006W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YIA6	YIL006W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR044712	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR11	YIL013C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YKE4	YIL023C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003689	computational	InterPro	2022-01-15	DDB, et al. (2001)
+POR2	YIL114C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR027246	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FLX1	YIL134W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FLX1	YIL134W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR044712	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SOA1	YIL166C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT12	YIL170W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT12	YIL170W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT12	YIL170W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YIL171W	YIL171W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL4	YIR028W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL4	YIR028W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL4	YIR028W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+KHA1	YJL094C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR006153	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YJL107C	YJL107C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010619	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PRM10	YJL108C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010619	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TRK1	YJL129C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003445	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YJL163C	YJL163C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YJL163C	YJL163C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000548153	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+YJL163C	YJL163C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q7Z3Q1	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+YJL163C	YJL163C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q96NT5	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+PHO90	YJL198W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004680	computational	InterPro	2022-01-15	DDB, et al. (2001)
+OPT1	YJL212C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004648	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT8	YJL214W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT8	YJL214W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT8	YJL214W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT9	YJL219W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT9	YJL219W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT9	YJL219W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GEF1	YJR040W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001807	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MIR1	YJR077C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SFC1	YJR095W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ECM27	YJR106W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004837	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YJR124C	YJR124C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL5	YJR152W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT16	YJR158W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT16	YJR158W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT16	YJR158W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH3	YJR160C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH3	YJR160C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MPH3	YJR160C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MNR2	YKL064W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002523	computational	InterPro	2022-01-15	DDB, et al. (2001)
+OAC1	YKL120W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO5	YKL174C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO5	YKL174C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ZRT3	YKL175W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003689	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PXA2	YKL188C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+STE6	YKL209C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR030246	computational	InterPro	2022-01-15	DDB, et al. (2001)
+JEN1	YKL217W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MCH2	YKL221W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GAP1	YKR039W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GAP1	YKR039W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TRK2	YKR050W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003445	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MRS4	YKR052C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PTR2	YKR093W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000109	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+NFT1	YKR103W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA5	YKR105C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+GEX2	YKR106W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+BPT1	YLL015W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO1	YLL028W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+FPS1	YLL043W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000425	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000178329	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0032456	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:102676	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:88388	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657997	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC30.04c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC3F10.11c	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC359.05	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2332	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 2366	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3112	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 3787	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 620268	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 71101	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VMR1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with YCF1	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2061559	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2090029	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2204202	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with A7KVC2	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15438	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15439	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O15440	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O60706	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P13569	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P33527	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q10RX7	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q92887	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YBT1	YLL048C	involved in	GO:0055085	transmembrane transport	biological process		IBA with ZDB-GENE-050517-17	computational	GO_Central	2021-09-05	Gaudet P, et al. (2011) PMID:21873635
+YLL053C	YLL053C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000425	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YCT1	YLL055W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MMP1	YLL061W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI73	YLR004C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GAL2	YLR081W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GAL2	YLR081W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GAL2	YLR081W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SUL2	YLR092W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001902	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ZRT2	YLR130C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003689	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NHA1	YLR138W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR006153	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YLR152C	YLR152C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004776	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDL1	YLR188W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI7	YLR237W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI7	YLR237W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI7	YLR237W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ATR1	YML116W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PHO84	YML123C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PHO84	YML123C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT2	YMR011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT2	YMR011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT2	YMR011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AAC1	YMR056C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+VBA1	YMR088C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+MME1	YMR166C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MMT1	YMR177W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002524	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TOM40	YMR203W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR027246	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FMP42	YMR221C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ZRC1	YMR243C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002524	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ATR2	YMR279C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:97570	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000657189	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC25B2.02c	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC663.03	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC737.09c	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 619930	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with ATM1	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O53645	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O75027	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with O95342	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P08183	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P29018	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q03518	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q03519	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q2M3G0	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q9FNU2	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q9NP58	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q9NUT2	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with WBGene00001811	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IBA with WBGene00001815	computational	GO_Central	2021-12-17	Gaudet P, et al. (2011) PMID:21873635
+ATM1	YMR301C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FET4	YMR319C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR007251	computational	InterPro	2022-01-15	DDB, et al. (2001)
+POR1	YNL055C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR027246	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+SAL1	YNL083W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YNL095C	YNL095C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004776	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ESBP6	YNL125C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+LYP1	YNL268W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+LYP1	YNL268W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ALP1	YNL270C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ALP1	YNL270C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FBgn0259111	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:2150150	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN004260927	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with locus:2037808	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q2Y0W8	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q8NBS3	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q8VYR7	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+BOR1	YNL275W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q9Y6R1	computational	GO_Central	2021-09-04	Gaudet P, et al. (2011) PMID:21873635
+HXT14	YNL318C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT14	YNL318C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT14	YNL318C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+VNX1	YNL321W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004837	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PHO91	YNR013C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001898	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+HOL1	YNR055C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BIO5	YNR056C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002293	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR18	YNR070W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT17	YNR072W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT17	YNR072W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT17	YNR072W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TAT2	YOL020W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TAT2	YOL020W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YOL075C	YOL075C	involved in	GO:0055085	transmembrane transport	biological process		IEA with ABC-type transporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+ITR2	YOL103W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ITR2	YOL103W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ITR2	YOL103W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MCH4	YOL119C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ALR1	YOL130W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002523	computational	InterPro	2022-01-15	DDB, et al. (2001)
+BSC6	YOL137W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT11	YOL156W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003663	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT11	YOL156W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005828	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HXT11	YOL156W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ENB1	YOL158C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+AUS1	YOR011W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NRT1	YOR071C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NRT1	YOR071C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+NRT1	YOR071C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ATX2	YOR079C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR003689	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ECM3	YOR092W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004776	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR5	YOR153W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:1917379	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with MGI:2140592	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000272883	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with 621426	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q53GD3	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q8IWA5	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q8WWI5	computational	GO_Central	2020-01-28	Gaudet P, et al. (2011) PMID:21873635
+PNS1	YOR161C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR007603	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI72	YOR192C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI72	YOR192C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR012681	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THI72	YOR192C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR045225	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ODC2	YOR222W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+FSF1	YOR271C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004686	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR005829	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO4	YOR273C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+MCH5	YOR306C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SLY41	YOR307C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004696	computational	InterPro	2022-01-15	DDB, et al. (2001)
+COT1	YOR316C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002524	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR10	YOR328W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PUT4	YOR348C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PUT4	YOR348C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YOR365C	YOR365C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN002031037	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+YOR365C	YOR365C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F7.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+YOR365C	YOR365C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC1322.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+YOR365C	YOR365C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLC2	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+AMF1	YOR378W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PDR12	YPL058C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR010929	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SSU1	YPL092W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004695	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ODC1	YPL134C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+PXA1	YPL147W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GUP2	YPL189W	involved in	GO:0055085	transmembrane transport	biological process		IEA with symporter activity	computational	GOC	2022-01-19	GOA curators (2016)
+FLC1	YPL221W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN002031037	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC1	YPL221W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F7.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC1	YPL221W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPCC1322.03	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+FLC1	YPL221W	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLC2	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+MMT2	YPL224C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002524	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HUT1	YPL244C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR013657	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DIP5	YPL265W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DIP5	YPL265W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDL2	YPL270W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011527	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SAM3	YPL274W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004840	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SAM3	YPL274W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004841	computational	InterPro	2022-01-15	DDB, et al. (2001)
+YPR003C	YPR003C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR001902	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MRX21	YPR011C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AGC1	YPR021C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR002067	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000173998	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000181510	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000197244	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with CAL0000199735	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN001160522	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC17A2.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAPB1A11.01	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with FLR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR3	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with DTR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with QDR2	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with TPO1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with AQR1	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEY8	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P28246	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P31442	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+TPO3	YPR156C	involved in	GO:0055085	transmembrane transport	biological process		IBA with P39386	computational	GO_Central	2021-11-05	Gaudet P, et al. (2011) PMID:21873635
+AQY1	YPR192W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR000425	computational	InterPro	2022-01-15	DDB, et al. (2001)
+OPT2	YPR194C	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR004648	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IEA with IPR011701	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with PTN000605491	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPAC1F8.03c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC12C2.13c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC3E7.06c	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC460.03	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SPBC4F6.09	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA2	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with GEX1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SIT1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with VBA5	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with AZR1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with SGE1	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P0AEJ0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P52600	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJX3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with P9WJY3	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process		IBA with Q6C8F0	computational	GO_Central	2021-11-12	Gaudet P, et al. (2011) PMID:21873635
+ARR3	YPR201W	involved in	GO:0055085	transmembrane transport	biological process		IEA with antiporter activity	computational	GOC	2022-01-19	GOA curators (2016)

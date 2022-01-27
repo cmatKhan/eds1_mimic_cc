@@ -1,0 +1,100 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+FUN26	YAL022C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-09	Vickers MF, et al. (2000) PMID:10827169
+FLC2	YAL053W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-09	Protchenko O, et al. (2006) PMID:16717099
+SEO1	YAL067C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2019-04-18	Isnard AD, et al. (1996) PMID:8893857
+SEO1	YAL067C	involved in	GO:0055085	transmembrane transport	biological process		ISS with FEN2	manually curated	SGD	2019-04-17	Nelissen B, et al. (1997) PMID:9348664
+SEO1	YAL067C	involved in	GO:0055085	transmembrane transport	biological process		ISS with VHT1	manually curated	SGD	2019-04-17	Nelissen B, et al. (1997) PMID:9348664
+PET9	YBL030C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-09	Brandolin G, et al. (1993) PMID:8476415
+FUI1	YBL042C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-09	Vickers MF, et al. (2000) PMID:10827169
+AVT5	YBL089W	involved in	GO:0055085	transmembrane transport	biological process		ISS with P40074	manually curated	SGD	2019-04-17	Russnak R, et al. (2001) PMID:11274162
+FUR4	YBR021W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-09	Urban-Grimal D, et al. (1995) PMID:8948441
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process	has input quinidine	IMP	manually curated	SGD	2019-03-29	Tenreiro S, et al. (2005) PMID:15649438
+QDR3	YBR043C	involved in	GO:0055085	transmembrane transport	biological process	has input bleomycin	IMP	manually curated	SGD	2019-03-29	Tenreiro S, et al. (2005) PMID:15649438
+BAP2	YBR068C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-10	Regenberg B, et al. (1999) PMID:10654085
+TAT1	YBR069C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-10	Regenberg B, et al. (1999) PMID:10654085
+AAC3	YBR085W	involved in	GO:0055085	transmembrane transport	biological process		ISA with P04710	manually curated	SGD	2008-12-10	Kolarov J, et al. (1990) PMID:2165073
+AAC3	YBR085W	involved in	GO:0055085	transmembrane transport	biological process		ISA with P18239	manually curated	SGD	2008-12-10	Kolarov J, et al. (1990) PMID:2165073
+YMC2	YBR104W	involved in	GO:0055085	transmembrane transport	biological process		IGI with ODC2	manually curated	SGD	2008-12-10	Trotter PJ, et al. (2005) PMID:16140254
+YMC2	YBR104W	involved in	GO:0055085	transmembrane transport	biological process		IGI with ODC1	manually curated	SGD	2008-12-10	Trotter PJ, et al. (2005) PMID:16140254
+VMA2	YBR127C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-10	Yamashiro CT, et al. (1990) PMID:2141385
+DTR1	YBR180W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-10	Felder T, et al. (2002) PMID:12455697
+RIM2	YBR192W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-12	Marobbio CM, et al. (2006) PMID:16194150
+VVS1	YBR241C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P30605	manually curated	SGD	2008-12-12	Palma M, et al. (2007) PMID:17587872
+CTP1	YBR291C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-12	Kaplan RS, et al. (1995) PMID:7876161
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Shimazu M, et al. (2005) PMID:15572352
+VBA2	YBR293W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Shimazu M, et al. (2005) PMID:15572352
+SUL1	YBR294W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Smith FW, et al. (1995) PMID:7616962
+PCA1	YBR295W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Adle DJ, et al. (2007) PMID:17107946
+PHO89	YBR296C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Martinez P and Persson BL (1998) PMID:9671031
+VMA9	YCL005W-A	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Sambade M and Kane PM (2004) PMID:14970230
+AGP1	YCL025C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Regenberg B, et al. (1999) PMID:10654085
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Shimazu M, et al. (2005) PMID:15572352
+VBA3	YCL069W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Shimazu M, et al. (2005) PMID:15572352
+ADY2	YCR010C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Paiva S, et al. (2004) PMID:14968426
+ADP1	YCR011C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P34230	manually curated	SGD	2013-03-25	Decottignies A and Goffeau A (1997) PMID:9020838
+GIT1	YCR098C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Patton-Vogt JL and Henry SA (1998) PMID:9691030
+VCX1	YDL128W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Cunningham KW and Fink GR (1996) PMID:8628289
+VCX1	YDL128W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Cunningham KW and Fink GR (1996) PMID:8628289
+GGC1	YDL198C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Vozza A, et al. (2004) PMID:14998997
+YDL199C	YDL199C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P30605	manually curated	SGD	2008-12-15	Palma M, et al. (2007) PMID:17587872
+UGA4	YDL210W	involved in	GO:0055085	transmembrane transport	biological process		IGI with GAP1	manually curated	SGD	2008-12-15	André B, et al. (1993) PMID:8455553
+UGA4	YDL210W	involved in	GO:0055085	transmembrane transport	biological process		IGI with PUT4	manually curated	SGD	2008-12-15	André B, et al. (1993) PMID:8455553
+MPH2	YDL247W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Day RE, et al. (2002) PMID:12210897
+ENA5	YDR038C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P13587	manually curated	SGD	2008-12-15	Wieland J, et al. (1995) PMID:7664728
+ENA2	YDR039C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Benito B, et al. (2002) PMID:11932440
+ENA1	YDR040C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2008-12-15	Benito B, et al. (1997) PMID:9315618
+ENA1	YDR040C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2008-12-15	Benito B, et al. (1997) PMID:9315618
+BAP3	YDR046C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2009-01-14	Regenberg B, et al. (1999) PMID:10654085
+YCF1	YDR135C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Petrovic S, et al. (2000) PMID:10790694
+MSC2	YDR205W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Ellis CD, et al. (2004) PMID:15277543
+CCC2	YDR270W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Yuan DS, et al. (1995) PMID:7708696
+HXT7	YDR342C	involved in	GO:0055085	transmembrane transport	biological process		TAS	manually curated	SGD	2009-01-14	Wieczorke R, et al. (1999) PMID:10618490
+HXT6	YDR343C	involved in	GO:0055085	transmembrane transport	biological process		TAS	manually curated	SGD	2009-01-14	Wieczorke R, et al. (1999) PMID:10618490
+HXT3	YDR345C	involved in	GO:0055085	transmembrane transport	biological process		TAS	manually curated	SGD	2009-01-14	Wieczorke R, et al. (1999) PMID:10618490
+ATO3	YDR384C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Palková Z, et al. (2002) PMID:12429834
+CIN10	YDR387C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P30605	manually curated	SGD	2009-01-14	Palma M, et al. (2007) PMID:17587872
+ITR1	YDR497C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Nikawa J, et al. (1991) PMID:2040626
+GNP1	YDR508C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2009-01-14	Regenberg B, et al. (1999) PMID:10654085
+STL1	YDR536W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Ferreira C, et al. (2005) PMID:15703210
+YEA4	YEL004W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-01-14	Roy SK, et al. (2000) PMID:10788474
+CAN1	YEL063C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2009-04-16	Regenberg B, et al. (1999) PMID:10654085
+SIT1	YEL065W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-16	Lesuisse E, et al. (1998) PMID:9884238
+AVT6	YER119C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-16	Russnak R, et al. (2001) PMID:11274162
+YFL040W	YFL040W	involved in	GO:0055085	transmembrane transport	biological process		ISS with P30605	manually curated	SGD	2009-04-16	Palma M, et al. (2007) PMID:17587872
+ALR2	YFL050C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-16	MacDiarmid CW and Gardner RC (1998) PMID:9430719
+AQY3	YFL054C	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-16	Oliveira R, et al. (2003) PMID:12832087
+AGP3	YFL055W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2009-04-16	Regenberg B, et al. (1999) PMID:10654085
+PMC1	YGL006W	involved in	GO:0055085	transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-16	Cunningham KW and Fink GR (1994) PMID:7507493
+PMA1	YGL008C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2009-04-16	Supply P, et al. (1993) PMID:8396147
+VPS73	YGL104C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P30605	manually curated	SGD	2009-04-16	Palma M, et al. (2007) PMID:17587872
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		ISS with P39719	manually curated	SGD	2009-04-16	Protchenko O, et al. (2006) PMID:16717099
+FLC3	YGL139W	involved in	GO:0055085	transmembrane transport	biological process		ISS with Q08967	manually curated	SGD	2009-04-16	Protchenko O, et al. (2006) PMID:16717099
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process	has input quinidine	IMP	manually curated	SGD	2019-03-29	Tenreiro S, et al. (2005) PMID:15649438
+QDR1	YIL120W	involved in	GO:0055085	transmembrane transport	biological process	has input bleomycin	IMP	manually curated	SGD	2019-03-29	Tenreiro S, et al. (2005) PMID:15649438
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process	has input quinidine	IMP	manually curated	SGD	2019-04-18	Vargas RC, et al. (2004) PMID:15215105
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process	has input cisplatin	IMP	manually curated	SGD	2019-04-18	Tenreiro S, et al. (2005) PMID:15649438
+QDR2	YIL121W	involved in	GO:0055085	transmembrane transport	biological process	has input bleomycin	IMP	manually curated	SGD	2019-04-18	Tenreiro S, et al. (2005) PMID:15649438
+YKR104W	YKR104W	involved in	GO:0055085	transmembrane transport	biological process		ISS with P38735	manually curated	SGD	2019-06-20	Decottignies A and Goffeau A (1997) PMID:9020838
+AQY2	YLL052C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2014-10-03	Carbrey JM, et al. (2001) PMID:11158584
+AQY2	YLL052C	involved in	GO:0055085	transmembrane transport	biological process		IGI with P0CD91	manually curated	SGD	2014-10-03	Carbrey JM, et al. (2001) PMID:11158584
+THI73	YLR004C	involved in	GO:0055085	transmembrane transport	biological process		ISS with P15365	manually curated	SGD	2019-04-30	Llorente B and Dujon B (2000) PMID:10869563
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process	has input ketoconazole	IMP	manually curated	SGD	2019-04-18	Tenreiro S, et al. (2002) PMID:11922628
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process	has input crystal violet cation	IMP	manually curated	SGD	2019-04-18	Tenreiro S, et al. (2002) PMID:11922628
+AQR1	YNL065W	involved in	GO:0055085	transmembrane transport	biological process	has input quinidine	IMP	manually curated	SGD	2019-04-18	Tenreiro S, et al. (2002) PMID:11922628
+YOL162W	YOL162W	involved in	GO:0055085	transmembrane transport	biological process		ISM	manually curated	SGD	2010-10-19	De Hertogh B, et al. (2006) PMID:16118182
+YOL163W	YOL163W	involved in	GO:0055085	transmembrane transport	biological process		ISM	manually curated	SGD	2010-10-21	De Hertogh B, et al. (2006) PMID:16118182
+YPK9	YOR291W	involved in	GO:0055085	transmembrane transport	biological process		ISS with P39986	manually curated	SGD	2018-01-29	Catty P, et al. (1997) PMID:9224683
+MEX67	YPL169C	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2019-12-03	Derrer CP, et al. (2019) PMID:31753862
+AQY1	YPR192W	involved in	GO:0055085	transmembrane transport	biological process		IGI with P0CD90	manually curated	SGD	2014-10-03	Carbrey JM, et al. (2001) PMID:11158584
+AQY1	YPR192W	involved in	GO:0055085	transmembrane transport	biological process		IDA	manually curated	SGD	2014-10-03	Bonhivers M, et al. (1998) PMID:9765289
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process	has input crystal violet	IMP	manually curated	SGD	2019-04-18	Ehrenhofer-Murray AE, et al. (1998) PMID:9483795
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process	has input ethidium bromide	IMP	manually curated	SGD	2019-04-18	Ehrenhofer-Murray AE, et al. (1998) PMID:9483795
+SGE1	YPR198W	involved in	GO:0055085	transmembrane transport	biological process	has input methyl methanesulfonate	IMP	manually curated	SGD	2019-04-18	Ehrenhofer-Murray AE, et al. (1998) PMID:9483795

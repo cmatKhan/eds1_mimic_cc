@@ -1,0 +1,57 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with CAL0000197250	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN001076439	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBC428.03c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBP4G3.02	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO11	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO11	YAR071W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO12	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with CAL0000197250	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN001076439	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBC428.03c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBP4G3.02	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO11	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO3	YBR092C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO12	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with CAL0000197250	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN001076439	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBC428.03c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBP4G3.02	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO11	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO5	YBR093C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO12	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with CAL0000197250	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN001076439	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBC428.03c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBP4G3.02	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO11	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO12	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+DIA3	YDL024C	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+YER134C	YER134C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN000427451	computational	GO_Central	2019-03-06	Gaudet P, et al. (2011) PMID:21873635
+YER134C	YER134C	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with YER134C	computational	GO_Central	2019-03-06	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with CAL0000197250	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PTN001076439	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBC428.03c	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with SPBP4G3.02	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO11	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO3	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+PHO12	YHR215W	enables	GO:0003993	acid phosphatase activity	molecular function		IBA with PHO12	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LTP1	YPR073C	enables	GO:0003993	acid phosphatase activity	molecular function		IEA with 3.1.3.2	computational	UniProt	2022-01-15	GOA curators and MGI curators (2001)

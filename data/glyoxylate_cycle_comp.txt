@@ -1,0 +1,30 @@
+!
+!Date: 01/24/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+IDP1	YDL066W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MDH3	YDL078C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ICL1	YER065C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ICL1	YER065C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR001465	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR006252	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR019830	computational	InterPro	2022-01-15	DDB, et al. (2001)
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with PTN000492975	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with MLS1	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
+DAL7	YIR031C	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with P28344	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
+IDP2	YLR174W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+IDP3	YNL009W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with KW-0329	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR001465	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR006252	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IEA with IPR019830	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with PTN000492975	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with MLS1	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IBA with P28344	computational	GO_Central	2020-08-10	Gaudet P, et al. (2011) PMID:21873635
