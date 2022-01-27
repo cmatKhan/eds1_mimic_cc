@@ -1,0 +1,12 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+YCK1	YHR135C	involved in	GO:0009749	response to glucose	biological process		IMP	manually curated	SGD	2004-07-09	Moriya H and Johnston M (2004) PMID:14755054
+YCK2	YNL154C	involved in	GO:0009749	response to glucose	biological process		IMP	manually curated	SGD	2004-07-09	Moriya H and Johnston M (2004) PMID:14755054
+SKS1	YPL026C	involved in	GO:0009749	response to glucose	biological process		IGI with SNF3	manually curated	SGD	2005-04-25	Vagnoli P and Bisson LF (1998) PMID:9559544

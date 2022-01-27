@@ -1,0 +1,32 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+CDC19	YAL038W	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-07-27	Sprague GF (1977) PMID:323230
+PGI1	YBR196C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2001-01-18	Aguilera A and Zimmermann FK (1986) PMID:3007940
+GLK1	YCL040W	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2006-11-17	Clifton D, et al. (1993) PMID:8501032
+PGK1	YCR012W	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-05-25	Lam KB and Marmur J (1977) PMID:400791
+TPI1	YDR050C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-05-24	Compagno C, et al. (2001) PMID:11329176
+HXK1	YFR053C	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2006-11-17	Lobo Z and Maitra PK (1977) PMID:332086
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2006-11-17	Lobo Z and Maitra PK (1977) PMID:332086
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2005-06-09	De Winde JH, et al. (1996) PMID:8917466
+HXK2	YGL253W	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-06-09	De Winde JH, et al. (1996) PMID:8917466
+TDH3	YGR192C	involved in	GO:0006096	glycolytic process	biological process		IEP	manually curated	SGD	2005-05-25	McAlister L and Holland MJ (1985) PMID:3905788
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2006-07-25	Hofmann E, et al. (1985) PMID:3000145
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2017-03-20	Heinisch J (1986) PMID:2965996
+PFK1	YGR240C	involved in	GO:0006096	glycolytic process	biological process		IGI with P16862	manually curated	SGD	2017-03-20	Heinisch J (1986) PMID:2965996
+ENO1	YGR254W	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-06-06	McAlister L and Holland MJ (1982) PMID:6282834
+ENO2	YHR174W	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-06-06	McAlister L and Holland MJ (1982) PMID:6282834
+TDH1	YJL052W	involved in	GO:0006096	glycolytic process	biological process		IEP	manually curated	SGD	2005-05-25	McAlister L and Holland MJ (1985) PMID:3905788
+TDH2	YJR009C	involved in	GO:0006096	glycolytic process	biological process		IEP	manually curated	SGD	2005-05-25	McAlister L and Holland MJ (1985) PMID:3905788
+FBA1	YKL060C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-05-25	Lobo Z (1984) PMID:6384192
+GPM1	YKL152C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2005-06-06	Peter Smits H, et al. (2000) PMID:11015729
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2016-11-11	Chan CY, et al. (2016) PMID:27226568
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IDA	manually curated	SGD	2006-07-25	Hofmann E, et al. (1985) PMID:3000145
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IMP	manually curated	SGD	2017-03-20	Heinisch J (1986) PMID:2965996
+PFK2	YMR205C	involved in	GO:0006096	glycolytic process	biological process		IGI with P16861	manually curated	SGD	2017-03-20	Heinisch J (1986) PMID:2965996

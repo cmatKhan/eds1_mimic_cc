@@ -1,0 +1,13 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+PET9	YBL030C	involved in	GO:0009061	anaerobic respiration	biological process		IGI with AAC3	manually curated	SGD	2004-02-26	Drgon T, et al. (1991) PMID:1915842
+AAC3	YBR085W	involved in	GO:0009061	anaerobic respiration	biological process		IGI with PET9	manually curated	SGD	2004-02-26	Drgon T, et al. (1991) PMID:1915842
+AAC3	YBR085W	involved in	GO:0009061	anaerobic respiration	biological process		IGI with AAC1	manually curated	SGD	2004-02-26	Drgon T, et al. (1991) PMID:1915842
+AAC3	YBR085W	involved in	GO:0009061	anaerobic respiration	biological process		IGI with PET9	manually curated	SGD	2004-02-26	Kolarov J, et al. (1990) PMID:2165073

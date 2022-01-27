@@ -1,0 +1,136 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000201223	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPAC6C3.04	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 620330	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with CIT3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT2	YCR005C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with Q9I5E3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+IDP1	YDL066W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MDH3	YDL078C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MDH3	YDL078C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR010097	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDH3	YDL078C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000899493	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+MDH3	YDL078C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with MDH1	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+KGD2	YDR148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+KGD2	YDR148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR006255	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SDH4	YDR178W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+SDH4	YDR178W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SDH4	YDR178W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN001000243	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+SDH4	YDR178W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with O14521	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+ICL1	YER065C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000212531	computational	GO_Central	2019-02-21	Gaudet P, et al. (2011) PMID:21873635
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 1305008	computational	GO_Central	2019-02-21	Gaudet P, et al. (2011) PMID:21873635
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 1309397	computational	GO_Central	2019-02-21	Gaudet P, et al. (2011) PMID:21873635
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P0A836	computational	GO_Central	2019-02-21	Gaudet P, et al. (2011) PMID:21873635
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR005809	computational	InterPro	2022-01-15	DDB, et al. (2001)
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with UR000405968	computational	UniProt	2022-01-15	UniProt Curators (2015)
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR011603	computational	InterPro	2022-01-15	DDB, et al. (2001)
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000568360	computational	GO_Central	2021-05-31	Gaudet P, et al. (2011) PMID:21873635
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 1310916	computational	GO_Central	2021-05-31	Gaudet P, et al. (2011) PMID:21873635
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 1561359	computational	GO_Central	2021-05-31	Gaudet P, et al. (2011) PMID:21873635
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P9WIS5	computational	GO_Central	2021-05-31	Gaudet P, et al. (2011) PMID:21873635
+DAL7	YIR031C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SDH9	YJL045W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+SDH9	YJL045W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SDH9	YJL045W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR011281	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ACO2	YJL200C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR006248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDH1	YKL085W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MDH1	YKL085W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR010097	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDH1	YKL085W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000899493	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+MDH1	YKL085W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with MDH1	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+SDH3	YKL141W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+SDH3	YKL141W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SDH3	YKL141W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR014314	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SDH3	YKL141W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR018495	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SDH1	YKL148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR011281	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SDH1	YKL148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+SDH1	YKL148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SDH2	YLL041C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR004489	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SDH2	YLL041C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+SDH2	YLL041C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+SHH4	YLR164W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN001000243	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+SHH4	YLR164W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with O14521	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+IDP2	YLR174W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR006248	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with FBgn0010100	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000186533	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 621360	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with ACO2	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with ACO1	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with Q8ZRS8	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with Q99798	computational	GO_Central	2017-06-01	Gaudet P, et al. (2011) PMID:21873635
+SHH3	YMR118C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR014314	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SHH3	YMR118C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR018495	computational	InterPro	2022-01-15	DDB, et al. (2001)
+IDP3	YNL009W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR004434	computational	InterPro	2022-01-15	DDB, et al. (2001)
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with FBgn0038922	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000216787	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPAC11G7.03	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPBC902.05c	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 2863	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 621881	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 70889	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with O43837	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P50213	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P51553	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P56471	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+MLS1	YNL117W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000201223	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPAC6C3.04	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 620330	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with CIT3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT1	YNR001C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with Q9I5E3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+SDH5	YOL071W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000279729	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+SDH5	YOL071W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SDH5	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+MDH2	YOL126C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+MDH2	YOL126C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR010097	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MDH2	YOL126C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000899493	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+MDH2	YOL126C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with MDH1	computational	GO_Central	2019-01-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR004434	computational	InterPro	2022-01-15	DDB, et al. (2001)
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with FBgn0038922	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000216787	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPAC11G7.03	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPBC902.05c	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 2863	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 621881	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 70889	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with O43837	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P50213	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P51553	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with P56471	computational	GO_Central	2021-12-16	Gaudet P, et al. (2011) PMID:21873635
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with FBgn0004888	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000122012	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 619821	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with UR000406071	computational	UniProt	2022-01-15	UniProt Curators (2015)
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000154499	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 2614	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with FUM1	computational	GO_Central	2017-02-28	Gaudet P, et al. (2011) PMID:21873635
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with IPR018951	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA	computational	UniProt	2022-01-15	UniProt-GOA (2012)
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IEA with KW-0816	computational	UniProt	2022-01-17	UniProt-GOA (2012)
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with PTN000201223	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with SPAC6C3.04	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with 620330	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with CIT3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IBA with Q9I5E3	computational	GO_Central	2018-05-08	Gaudet P, et al. (2011) PMID:21873635

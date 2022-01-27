@@ -1,0 +1,14 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+PHO11	YAR071W	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		TAS	manually curated	SGD	2002-10-01	Ogawa N, et al. (2000) PMID:11102525
+IPP1	YBR011C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IC with inorganic diphosphatase activity	manually curated	SGD	2003-01-17	Kurilova SA, et al. (1993) PMID:8224193
+PHO3	YBR092C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IDA	manually curated	SGD	2004-12-20	Nosaka K (1990) PMID:2407294
+PHO5	YBR093C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IMP	manually curated	SGD	2005-11-11	Kennedy EJ, et al. (2005) PMID:16278456
+PHO81	YGR233C	involved in	GO:0006796	phosphate-containing compound metabolic process	biological process		IMP	manually curated	SGD	2010-01-26	To-E A, et al. (1973) PMID:4570606

@@ -1,0 +1,28 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+Mitochondrial succinyl-CoA synthetase complex	CPX-1379	involved in	GO:0006099	tricarboxylic acid cycle	biological process		BSR	manually curated	ComplexPortal	2018-02-14	Przybyla-Zawislak B, et al. (1998) PMID:9874242
+Mitochondrial isocitrate dehydrogenase complex (NAD+)	CPX-558	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IDA	manually curated	ComplexPortal	2018-02-01	Lin AP, et al. (2001) PMID:11714283
+Mitochondrial respiratory chain complex II	CPX-565	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IDA	manually curated	ComplexPortal	2018-01-11	Oyedotun KS and Lemire BD (1999) PMID:9929002
+KGD2	YDR148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IC with mitochondrial oxoglutarate dehydrogenase complex	manually curated	SGD	2010-06-03	Repetto B and Tzagoloff A (1991) PMID:2072900
+SDH4	YDR178W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+YMR31	YFR049W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IMP	manually curated	SGD	2015-01-09	Heublein M, et al. (2014) PMID:25165143
+LSC2	YGR244C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+KGD1	YIL125W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+ACO2	YJL200C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IMP	manually curated	SGD	2020-02-06	Bradley PH, et al. (2019) PMID:30834327
+MDH1	YKL085W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IMP	manually curated	SGD	2008-08-25	McAlister-Henn L and Thompson LM (1987) PMID:3312168
+SDH1	YKL148C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IC with succinate dehydrogenase (ubiquinone) activity	manually curated	SGD	2008-12-04	SINGER TP, et al. (1957) PMID:13445213
+SDH2	YLL041C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IMP	manually curated	SGD	2009-03-16	Przybyla-Zawislak B, et al. (1999) PMID:10224250
+ACO1	YLR304C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IDA	manually curated	SGD	2013-01-17	Gangloff SP, et al. (1990) PMID:1972545
+IDH1	YNL037C	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+SDH5	YOL071W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IPI with SDH1	manually curated	SGD	2009-08-23	Hao HX, et al. (2009) PMID:19628817
+IDH2	YOR136W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+LSC1	YOR142W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		TAS	manually curated	SGD	2001-01-18	McAlister-Henn L and Small WC (1997) PMID:9175438
+FUM1	YPL262W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IMP	manually curated	SGD	2013-02-01	Kaclíková E, et al. (1992) PMID:1587456
+CIT3	YPR001W	involved in	GO:0006099	tricarboxylic acid cycle	biological process		IDA	manually curated	SGD	2013-01-17	Graybill ER, et al. (2007) PMID:17570335

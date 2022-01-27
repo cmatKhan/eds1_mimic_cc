@@ -1,0 +1,16 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+SNF3	YDL194W	involved in	GO:1904659	glucose transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-28	Lewis DA and Bisson LF (1991) PMID:2046678
+MTH1	YDR277C	involved in	GO:1904659	glucose transmembrane transport	biological process		IMP	manually curated	SGD	2002-04-08	Schulte F, et al. (2000) PMID:10629208
+HXT7	YDR342C	involved in	GO:1904659	glucose transmembrane transport	biological process		IDA	manually curated	SGD	2017-07-13	Maier A, et al. (2002) PMID:12702270
+HXT3	YDR345C	involved in	GO:1904659	glucose transmembrane transport	biological process		IDA	manually curated	SGD	2017-07-13	Maier A, et al. (2002) PMID:12702270
+HXT1	YHR094C	involved in	GO:1904659	glucose transmembrane transport	biological process		IMP	manually curated	SGD	2009-04-28	Lewis DA and Bisson LF (1991) PMID:2046678
+HXT5	YHR096C	involved in	GO:1904659	glucose transmembrane transport	biological process		IMP	manually curated	SGD	2011-01-10	Bermejo C, et al. (2010) PMID:20854260
+HXT2	YMR011W	involved in	GO:1904659	glucose transmembrane transport	biological process		IMP	manually curated	SGD	2009-05-05	Kruckeberg AL and Bisson LF (1990) PMID:2233722

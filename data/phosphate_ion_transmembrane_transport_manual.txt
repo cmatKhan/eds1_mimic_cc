@@ -1,0 +1,12 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+PHO89	YBR296C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IDA	manually curated	SGD	2013-01-15	Sengottaiyan P, et al. (2013) PMID:23216645
+PIC2	YER053C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IDA	manually curated	SGD	2014-08-19	Hamel P, et al. (2004) PMID:14756774
+MIR1	YJR077C	involved in	GO:0035435	phosphate ion transmembrane transport	biological process		IDA	manually curated	SGD	2011-05-26	Schroers A, et al. (1997) PMID:9099701

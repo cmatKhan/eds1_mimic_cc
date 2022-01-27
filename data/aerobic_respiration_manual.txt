@@ -1,0 +1,53 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+COX1	Q0045	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-03	Lemaire C, et al. (1998) PMID:9724417
+COB	Q0105	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Kreike J, et al. (1979) PMID:391561
+COX2	Q0250	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-05	Fox TD (1979) PMID:224191
+COX3	Q0275	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-04	Meunier B (2001) PMID:11171120
+PET9	YBL030C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2004-02-26	Gawaz M, et al. (1990) PMID:2167309
+COR1	YBL045C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Gatti DL and Tzagoloff A (1990) PMID:2174874
+HHT1	YBR010W	involved in	GO:0009060	aerobic respiration	biological process	has participant copper(2+), has participant copper(1+)	IMP	manually curated	SGD	2021-02-11	Attar N, et al. (2020) PMID:32631887
+ETR1	YBR026C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-10-30	Torkko JM, et al. (2001) PMID:11509667
+YBR238C	YBR238C	involved in	GO:0009060	aerobic respiration	biological process		IGI with RMD9	manually curated	SGD	2007-06-11	Nouet C, et al. (2007) PMID:17194787
+ALG7	YBR243C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-04-18	Mendelsohn RD, et al. (2005) PMID:15794922
+MIX14	YDR031W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2010-05-13	Longen S, et al. (2009) PMID:19703468
+RIB3	YDR487C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2003-05-05	Jin C, et al. (2003) PMID:12595523
+QCR7	YDR529C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Schoppink PJ, et al. (1989) PMID:2540976
+RIP1	YEL024W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Beckmann JD, et al. (1987) PMID:3036836
+QCR6	YFR033C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Yang M and Trumpower BL (1994) PMID:8288589
+JAC1	YGL018C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2001-01-18	Strain J, et al. (1998) PMID:9813017
+RMD9	YGL107C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-06-11	Williams EH, et al. (2007) PMID:17194786
+RMD9	YGL107C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-06-11	Nouet C, et al. (2007) PMID:17194787
+COX13	YGL191W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-14	Taanman JW and Capaldi RA (1993) PMID:8395517
+QCR9	YGR183C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Graham LA, et al. (1992) PMID:1332881
+QCR10	YHR001W-A	involved in	GO:0009060	aerobic respiration	biological process		IGI with QCR6	manually curated	SGD	2007-05-30	Brandt U, et al. (1994) PMID:8175712
+MAM33	YIL070C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-05	Muta T, et al. (1997) PMID:9305894
+QCR8	YJL166W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Hemrika W, et al. (1993) PMID:8394810
+CBP1	YJL209W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-18	Chen W and Dieckmann CL (1997) PMID:9343381
+OAR1	YKL055C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-10-28	Schneider R, et al. (1997) PMID:9388293
+MDH1	YKL085W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2008-08-25	McAlister-Henn L and Thompson LM (1987) PMID:3312168
+MBR1	YKL093W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-30	Daignan-Fornier B, et al. (1994) PMID:8208248
+PLN1	YKR046C	involved in	GO:0009060	aerobic respiration	biological process		IEP	manually curated	SGD	2003-09-16	Brown MP, et al. (2000) PMID:10618406
+PUF3	YLL013C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-02-16	García-Rodríguez LJ, et al. (2007) PMID:17210948
+SLS1	YLR139C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-17	Rouillard JM, et al. (1996) PMID:8917313
+COQ5	YML110C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-13	Barkovich RJ, et al. (1997) PMID:9083049
+MIX17	YMR002W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2010-05-13	Longen S, et al. (2009) PMID:19703468
+RSF1	YMR030W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2003-10-14	Lu L, et al. (2003) PMID:12734673
+AAC1	YMR056C	involved in	GO:0009060	aerobic respiration	biological process		IGI with PET9	manually curated	SGD	2004-02-26	Gawaz M, et al. (1990) PMID:2167309
+ISF1	YMR081C	involved in	GO:0009060	aerobic respiration	biological process		IGI with MBR1	manually curated	SGD	2002-09-30	Daignan-Fornier B, et al. (1994) PMID:8208248
+PAH1	YMR165C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-10-01	Irie K, et al. (1993) PMID:8437575
+PPA2	YMR267W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2003-09-30	Lundin M, et al. (1991) PMID:1648084
+HHT2	YNL031C	involved in	GO:0009060	aerobic respiration	biological process	has participant copper(2+), has participant copper(1+)	IMP	manually curated	SGD	2021-02-11	Attar N, et al. (2020) PMID:32631887
+ALG6	YOR002W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-04-18	Mendelsohn RD, et al. (2005) PMID:15794922
+GDS1	YOR355W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-30	Konopinska A, et al. (1995) PMID:8750239
+COX11	YPL132W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-06-04	Hiser L, et al. (2000) PMID:10617659
+PET20	YPL159C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2007-01-12	Polevoda B, et al. (2006) PMID:16491469
+NCA2	YPR155C	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-08-21	Camougrand N, et al. (1995) PMID:7723016
+QCR2	YPR191W	involved in	GO:0009060	aerobic respiration	biological process		IMP	manually curated	SGD	2002-09-06	Oudshoorn P, et al. (1987) PMID:3028797

@@ -1,0 +1,13 @@
+!
+!Date: 01/24/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+LEU2	YCL018W	involved in	GO:0006097	glyoxylate cycle	biological process		IMP	manually curated	SGD	2013-06-18	Branduardi P, et al. (2013) PMID:23642236
+ICL1	YER065C	involved in	GO:0006097	glyoxylate cycle	biological process		IMP	manually curated	SGD	2018-11-13	McCammon MT (1996) PMID:8878673
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IMP	manually curated	SGD	2013-06-18	Branduardi P, et al. (2013) PMID:23642236
+MLS1	YNL117W	involved in	GO:0006097	glyoxylate cycle	biological process		IMP	manually curated	SGD	2012-11-09	McCammon MT (1996) PMID:8878673

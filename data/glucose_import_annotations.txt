@@ -1,0 +1,15 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+GLK1	YCL040W	involved in	GO:0046323	glucose import	biological process		IGI with HXK1	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872
+GLK1	YCL040W	involved in	GO:0046323	glucose import	biological process		IGI with HXK2	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872
+HXK1	YFR053C	involved in	GO:0046323	glucose import	biological process		IGI with GLK1	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872
+HXK1	YFR053C	involved in	GO:0046323	glucose import	biological process		IGI with HXK2	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872
+HXK2	YGL253W	involved in	GO:0046323	glucose import	biological process		IGI with GLK1	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872
+HXK2	YGL253W	involved in	GO:0046323	glucose import	biological process		IGI with HXK1	manually curated	SGD	2006-11-17	Bisson LF and Fraenkel DG (1983) PMID:6300872

@@ -56,22 +56,22 @@ test_locusCoverage = function(bam_path, granges, library_strandedness,
   sbp = strandedScanBamParam(granges, library_strandedness, ...)
   sbp
 
-  # # set parameter options
-  # p_param <- PileupParam(min_mapq = sbp@mapqFilter,
-  #                        min_nucleotide_depth = coverage_threshold,
-  #                        distinguish_strands=TRUE,
-  #                        distinguish_nucleotides=FALSE)
-  #
-  # message("reading bam file...")
-  # bamfile = BamFile(bam_path, bam_index_path)
-  #
-  # message("calculating coverage...")
-  # coverage_df = pileup(bamfile,
-  #                      scanBamParam = sbp,
-  #                      pileupParam = p_param)
-  #
-  # message("done")
-  # length(unique(coverage_df$pos))/sum(width(granges))
+  # set parameter options
+  p_param <- PileupParam(min_mapq = sbp@mapqFilter,
+                         min_nucleotide_depth = coverage_threshold,
+                         distinguish_strands=TRUE,
+                         distinguish_nucleotides=FALSE)
+
+  message("reading bam file...")
+  bamfile = BamFile(bam_path, bam_index_path)
+
+  message("calculating coverage...")
+  coverage_df = pileup(bamfile,
+                       scanBamParam = sbp,
+                       pileupParam = p_param)
+
+  message("done")
+  length(unique(coverage_df$pos))/sum(width(granges))
 }
 
 test_geneGRanges = function(annote_obj_path, gene_id, id_col = "ID",

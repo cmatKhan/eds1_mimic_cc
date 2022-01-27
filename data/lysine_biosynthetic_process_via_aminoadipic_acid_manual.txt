@@ -1,0 +1,18 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+LYS2	YBR115C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IDA	manually curated	SGD	2007-02-09	Ehmann DE, et al. (1999) PMID:10320345
+LYS2	YBR115C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2007-02-09	Barnes DA and Thorner J (1986) PMID:3023949
+LYS2	YBR115C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2007-02-09	Sinha AK and Bhattacharjee JK (1971) PMID:4401608
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2010-06-24	Quezada H, et al. (2008) PMID:18524920
+LYS21	YDL131W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IGI with LYS20	manually curated	SGD	2010-06-24	Quezada H, et al. (2008) PMID:18524920
+LYS20	YDL182W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IGI with LYS21	manually curated	SGD	2010-06-24	Quezada H, et al. (2008) PMID:18524920
+LYS4	YDR234W	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2013-05-28	Wang L, et al. (1989) PMID:2507177
+LYS5	YGL154C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2018-12-13	Zaret KS and Sherman F (1985) PMID:3921525
+LYS9	YNR050C	involved in	GO:0019878	lysine biosynthetic process via aminoadipic acid	biological process		IMP	manually curated	SGD	2009-06-01	Borell CW, et al. (1984) PMID:6429126

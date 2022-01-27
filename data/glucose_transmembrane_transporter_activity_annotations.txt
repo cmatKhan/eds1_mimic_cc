@@ -1,0 +1,28 @@
+!
+!Date: 01/25/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+HXT15	YDL245C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT7	YDR342C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT7	YDR342C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2010-06-16	Kasahara T and Kasahara M (2010) PMID:20525688
+HXT6	YDR343C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT3	YDR345C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT13	YEL069C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT10	YFL011W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT4	YHR092C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT1	YHR094C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		TAS	manually curated	SGD	2001-10-16	Wieczorke R, et al. (1999) PMID:10618490
+HXT5	YHR096C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT5	YHR096C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2011-01-10	Bermejo C, et al. (2010) PMID:20854260
+HXT5	YHR096C	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT8	YJL214W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT9	YJL219W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT16	YJR158W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+GAL2	YLR081W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT2	YMR011W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IDA	manually curated	SGD	2003-05-02	Maier A, et al. (2002) PMID:12702270
+HXT17	YNR072W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
+HXT11	YOL156W	enables	GO:0005355	glucose transmembrane transporter activity	molecular function		IMP	manually curated	SGD	2019-06-21	Wieczorke R, et al. (1999) PMID:10618490
