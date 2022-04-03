@@ -1,0 +1,50 @@
+!
+!Date: 03/02/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+GDH3	YAL062W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006095	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GDH3	YAL062W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006096	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GDH3	YAL062W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006097	computational	InterPro	2022-01-15	DDB, et al. (2001)
+CHA1	YCL064C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000634	computational	InterPro	2022-01-15	DDB, et al. (2001)
+THR4	YCR053W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000634	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GDH2	YDL215C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006096	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HOM2	YDR158W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000319	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ASP1	YDR321W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR020827	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GLY1	YEL046C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR001597	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ILV1	YER086W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000634	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNZ3	YFL059W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with PTN000782634	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ3	YFL059W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with SPAC29B12.04	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ3	YFL059W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with locus:2179142	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+IRC7	YFR055W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006233	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARG3	YJL088W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006130	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARG3	YJL088W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006131	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARG3	YJL088W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006132	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ARG3	YJL088W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR036901	computational	InterPro	2022-01-15	DDB, et al. (2001)
+URA2	YJL130C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006130	computational	InterPro	2022-01-15	DDB, et al. (2001)
+URA2	YJL130C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006131	computational	InterPro	2022-01-15	DDB, et al. (2001)
+URA2	YJL130C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006132	computational	InterPro	2022-01-15	DDB, et al. (2001)
+URA2	YJL130C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR036901	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HOM6	YJR139C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR001342	computational	InterPro	2022-01-15	DDB, et al. (2001)
+HOM6	YJR139C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR019811	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AAT1	YKL106W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000796	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SRY1	YKL218C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000634	computational	InterPro	2022-01-15	DDB, et al. (2001)
+AAT2	YLR027C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR000796	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ASP3-1	YLR155C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR020827	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ASP3-2	YLR157C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR020827	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ASP3-3	YLR158C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR020827	computational	InterPro	2022-01-15	DDB, et al. (2001)
+ASP3-4	YLR160C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR020827	computational	InterPro	2022-01-15	DDB, et al. (2001)
+MET17	YLR303W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006235	computational	InterPro	2022-01-15	DDB, et al. (2001)
+SNZ1	YMR096W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with PTN000782634	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ1	YMR096W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with SPAC29B12.04	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ1	YMR096W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with locus:2179142	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ2	YNL333W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with PTN000782634	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ2	YNL333W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with SPAC29B12.04	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+SNZ2	YNL333W	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IBA with locus:2179142	computational	GO_Central	2020-08-09	Gaudet P, et al. (2011) PMID:21873635
+GDH1	YOR375C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006095	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GDH1	YOR375C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006096	computational	InterPro	2022-01-15	DDB, et al. (2001)
+GDH1	YOR375C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IEA with IPR006097	computational	InterPro	2022-01-15	DDB, et al. (2001)

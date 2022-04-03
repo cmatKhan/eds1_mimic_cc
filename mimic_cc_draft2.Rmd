@@ -1,0 +1,330 @@
+---
+title: "Mimic CC RnaSeq -- Draft 2"
+author: Chase Mateusiak, chasem@wustl.edu
+date: "`r Sys.Date()`"
+knit: (function(inputFile, encoding) { 
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), "../docs", 'index.html')) })
+output: 
+  html_document
+---
+
+# plot the background and foreground for GSEA analysis
+https://www.huber.embl.de/users/klaus/Teaching/DESeq2Predoc2014.html#gene-ontology-enrichment-analysis
+
+# goStats has some analysis suggestions
+https://bioconductor.org/packages/release/bioc/vignettes/GOstats/inst/doc/GOvis.pdf
+
+# profilr -- combine chip and rnaseq
+#https://bioconductor.org/packages/devel/bioc/vignettes/profileplyr/inst/doc/profileplyr.html
+
+# see this data set + chp on diaxic shift in gcr1 mutants
+# https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153842
+
+# paper on lysine pathway
+# https://pubmed.ncbi.nlm.nih.gov/16943623/
+
+```{r notebook_setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "#>",
+  echo = TRUE,
+  include = TRUE,
+  cache = TRUE
+)
+```
+
+# Setup environment
+
+```{r setup, include=FALSE, echo=FALSE}
+# note, kept here for convenience. Repeated so that it shows up in notebook
+library(DESeq2)
+library(gprofiler2)
+library(patchwork)
+library(tidyverse)
+library(DT)
+library(pheatmap)
+library(here)
+library(gridExtra)
+library(grid)
+library(org.Sc.sgd.db)
+
+source(here("R/parse_cc_df.R"))
+cc_df = parse_cc_data("../shared_data/Combined_Eds1_Rgt1_Lys14_CCTargets.csv", .001)
+
+# this will create the shrunken_res_lists
+source(here("R/lysine_focused_results.R"))
+
+id_to_symbol = select(
+  org.Sc.sgd.db,
+  keys = rownames(dds),
+  keytype = "ORF",
+  columns = c("ORF", "COMMON")
+) %>%
+  mutate(gene = ORF, symbol = COMMON) %>%
+  dplyr::select(gene, symbol) %>%
+  distinct(gene, .keep_all = TRUE)
+
+source("R/create_long_results_df.R")
+long_res_df = lysine_results_long(shrunken_res_lists, cc_df) %>%
+  left_join(id_to_symbol)
+```
+
+```{r}
+bound_responsive_in_either_cond = long_res_df %>% 
+  filter(str_detect(contrast, 'effect_of_del'), 
+         abs(log2FoldChange) > .5, padj < .05) %>% 
+  group_by(ko, gene) %>% 
+  summarise(max_abs_shrunk_lfc = max(abs(log2FoldChange)),
+            min_cc_pval = min(min_pval),
+            .groups = "keep") %>%
+  ungroup() %>%
+  group_by(ko) %>%
+  group_split()
+```
+
+```{r}
+long_res_df %>% 
+  filter(str_detect(contrast, 'effect_of_del'), 
+         abs(log2FoldChange) > .5, padj < .05,
+         gene %in% setdiff(bound_responsive_in_either_cond[[1]]$gene, bound_responsive_in_either_cond[[5]]$gene)) %>%
+    ggplot() +
+    geom_tile(aes(ko, symbol, fill = log2FoldChange  ), color = "black") +
+    scale_fill_gradient2(low = "#075AFF",
+                         mid = "white",
+                         high = "#FF0000") +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+          text = element_text(size = 20)) +
+  theme_minimal()+
+    ggtitle('test') +
+  facet_wrap(vars(contrast))
+```
+
+```{r}
+long_res_df %>% 
+  filter(abs(log2FoldChange) > 1, 
+         padj < .05,
+         !is.na(min_pval)) %>% 
+    ggplot() +
+    geom_tile(aes(ko, symbol, fill = log2FoldChange  ), color = "black") +
+    scale_fill_gradient2(low = "#075AFF",
+                         mid = "white",
+                         high = "#FF0000") +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+          text = element_text(size = 20)) +
+  theme_minimal()+
+    ggtitle('test') +
+  facet_wrap(vars(contrast))
+```
+```{r}
+compare_res_up = long_res_df %>% 
+  filter(log2FoldChange > 1, 
+         padj < .05, 
+         str_detect(contrast, "effect_of_del"),
+         !is.na(min_pval))
+
+compare_res_up %>%
+  group_by(ko,contrast) %>%
+  summarize(n = n(), .groups="keep") %>%
+  # rbind(tibble(ko = "LYS14", contrast = "effect_of_del_in_plus_lysine", n = 0)) %>%
+  ggplot(aes(ko, n, fill = contrast)) +
+  geom_col(position = position_dodge()) +
+  scale_fill_manual(
+    values = c(effect_of_del_in_minus_lysine = pal_npg("nrc")(10)[5],
+      effect_of_del_in_plus_lysine = pal_npg("nrc")(10)[8])
+  )
+  
+```
+
+
+```{r}
+compare_res_down = long_res_df %>% 
+  filter(log2FoldChange < -1, 
+         padj < .05, 
+         str_detect(contrast, "effect_of_del"),
+         !is.na(min_pval))
+
+compare_res_down %>%
+  group_by(ko,contrast) %>%
+  summarize(n = n(), .groups="keep") %>%
+  ggplot(aes(ko, n, fill = contrast)) +
+  geom_col(position = position_dodge()) +
+  scale_fill_manual(
+    values = c(effect_of_del_in_minus_lysine = pal_npg("nrc")(10)[2],
+      effect_of_del_in_plus_lysine = pal_npg("nrc")(10)[4])
+  ) +
+  scale_y_reverse(limits = c(30,0))
+  
+```
+
+```{r}
+library(ggVennDiagram)
+venn_list = list(
+  up_minus_lys = list(
+    Eds1 = pull(filter(compare_res_up, ko == "EDS1", contrast == "effect_of_del_in_minus_lysine"), gene),
+    Rgt1 = pull(filter(compare_res_up, ko == "RGT1", contrast == "effect_of_del_in_minus_lysine"), gene),
+    Lys14 = pull(filter(compare_res_up, ko == "LYS14", contrast == "effect_of_del_in_minus_lysine"), gene)
+  ),
+    up_plus_lys = list(
+    Eds1 = pull(filter(compare_res_up, ko == "EDS1", contrast == "effect_of_del_in_plus_lysine"), gene),
+    Rgt1 = pull(filter(compare_res_up, ko == "RGT1", contrast == "effect_of_del_in_plus_lysine"), gene),
+    Lys14 = pull(filter(compare_res_up, ko == "LYS14", contrast == "effect_of_del_in_plus_lysine"), gene)
+  ),
+    down_minus_lys = list(
+    Eds1 = pull(filter(compare_res_down, ko == "EDS1", contrast == "effect_of_del_in_minus_lysine"), gene),
+    Rgt1 = pull(filter(compare_res_down, ko == "RGT1", contrast == "effect_of_del_in_minus_lysine"), gene),
+    Lys14 = pull(filter(compare_res_down, ko == "LYS14", contrast == "effect_of_del_in_minus_lysine"), gene)
+  ),
+    down_plus_lys = list(
+    Eds1 = pull(filter(compare_res_down, ko == "EDS1", contrast == "effect_of_del_in_plus_lysine"), gene),
+    Rgt1 = pull(filter(compare_res_down, ko == "RGT1", contrast == "effect_of_del_in_plus_lysine"), gene),
+    Lys14 = pull(filter(compare_res_down, ko == "LYS14", contrast == "effect_of_del_in_plus_lysine"), gene)
+  )
+)
+
+make_venn_diagrams = function(set_name){
+  set_list = venn_list[[set_name]]
+      compare_col = if(str_detect(set_name, "up")) 'Reds' else 'Blues'
+      ggVennDiagram(set_list,
+                        label = "count",
+                        label_alpha = 0,
+                        edge_size = 0,
+                        label_geom = c("label", "text"),
+                        label_size = 9) +
+        scale_fill_distiller(palette = compare_col, direction = 1) +
+        ggtitle(set_name, subtitle = paste0("shrunken abs(log2FC) > 1; padj < .05; binding < .0001 in either condition")) +
+        theme(legend.position="none",
+              plot.title = element_text(size = 15))
+}
+
+venn_plt_list = map(names(venn_list), make_venn_diagrams)
+```
+
+
+```{r}
+#"YGL179C" "YJL212C" "YLR089C" "YPR157W"
+gene_id = "YBR105C"
+interaction_term_res = results(dds)
+
+  gene_index = which(rownames(interaction_term_res) == gene_id) #
+
+  gene_plt <- plotCounts(dds, gene_index,
+                         intgroup = c("genotype","aminoAcid"),
+                         returnData = TRUE,
+                         normalized = TRUE)
+
+  plt = gene_plt %>%
+    ggplot(
+      aes(x = aminoAcid, y = count, color = genotype, group = genotype)) +
+    geom_point() +
+    stat_summary(fun=mean, geom="line")
+  
+  plotly::ggplotly(plt)
+```
+
+
+
+```{r}
+
+x$effect_of_minus_lys_on_wt[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = 'id') %>%
+  left_join(gene_set_df_list$lysine_genes) %>%
+  filter(padj < .05) %>% ggplot(aes(symbol, log2FoldChange, fill = symbol)) +
+  geom_col() +
+  geom_errorbar(aes(ymin = log2FoldChange - lfcSE/2,
+                    ymax = log2FoldChange + lfcSE/2)) +
+  labs(title =  "Effect of Minus Lysine on WT") +
+  labs(subtitle = "p-adjusted < .05")
+
+x$effect_of_minus_lys_on_del$RGT1[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = 'id') %>%
+  left_join(gene_set_df_list$lysine_genes) %>%
+  filter(padj < .05) %>% ggplot(aes(symbol, log2FoldChange, fill = symbol)) +
+  geom_col() +
+  geom_errorbar(aes(ymin = log2FoldChange - lfcSE/2,
+                    ymax = log2FoldChange + lfcSE/2)) +
+  labs(title =  "Effect of Minus Lysine on del EDS1") +
+  labs(subtitle = "p-adjusted < .05")
+
+bar_width = .8
+
+rbind(  x$effect_of_minus_lys_on_wt[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "wt"),
+x$effect_of_minus_lys_on_del$RGT1[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "Rgt1"),
+x$effect_of_minus_lys_on_del$EDS1_RGT1[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "Eds1_Rgt1"),
+x$effect_of_minus_lys_on_del$EDS1[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "Eds1"),
+x$effect_of_minus_lys_on_del$EDS1_LYS14[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "Eds1_Lys14"),
+x$effect_of_minus_lys_on_del$LYS14[gene_set_df_list$lysine_genes$id,] %>%
+  as_tibble(rownames = "id") %>%
+  mutate(geno = "Lys14")) %>%
+  left_join(gene_set_df_list$lysine_genes) %>%
+  ggplot(aes(symbol, log2FoldChange)) +
+  geom_col(aes(fill = geno), position = 'dodge', width = bar_width) +
+  # geom_errorbar(aes(ymin = log2FoldChange - lfcSE/2,
+  #                   ymax = log2FoldChange + lfcSE/2,
+  #                   color = geno),
+  #               position = 'dodge',
+  #               width = bar_width) +
+  theme_minimal() +
+  theme(text = element_text(size = 30),
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  labs(title = "Effect of Minus Lysine by Genotype")
+```
+
+
+```{r}
+gene_id = gene_set_df_list$lysine_genes$id[6]
+
+interaction_term_res = results(dds)
+
+gene_index = which(rownames(interaction_term_res) == gene_id) #
+
+gene_plt <- plotCounts(dds, gene_index,
+                       intgroup = c("genotype","aminoAcid"),
+                       returnData = TRUE,
+                       normalized = TRUE,
+                       transform = FALSE) %>%
+  mutate(count = log2(count))
+
+extract_dds_counts = function(gene_id, dds){
+  gene_index = which(rownames(interaction_term_res) == gene_id)
+  plotCounts(dds, gene_index,
+             intgroup = c("genotype","aminoAcid"),
+             returnData = TRUE,
+             normalized = TRUE,
+             transform = FALSE) %>%
+    mutate(count = log2(count),
+           gene = gene_id)
+}
+
+lysine_genes_df = map(gene_set_df_list$lysine_genes$id, extract_dds_counts, dds)
+
+lysine_genes_df = do.call('rbind', lysine_genes_df)
+
+lysine_genes_df = lysine_genes_df %>%
+  left_join(id_to_symbol)
+
+plt1 = lysine_genes_df %>%
+  mutate(symbol = factor(symbol, levels = c('ARO8', 'ARO9', "CIT1", "ACO2",  "LYS20", "LYS21", "LYS4", "LYS12",
+                                            "LYS2", "LYS5", "LYS9", "LYS1",
+                                            "LYS14"))) %>%
+  ggplot(
+    aes(x = aminoAcid, y = count, color = genotype, group = genotype)) +
+  geom_point() +
+  stat_summary(fun=mean, geom="line") +
+  labs(y = "log2(norm_count)", x = "") +
+  facet_grid(cols = vars(symbol))
+
+plotly::ggplotly(plt1)
+```
+

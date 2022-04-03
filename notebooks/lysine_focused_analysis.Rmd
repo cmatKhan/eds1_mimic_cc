@@ -1,0 +1,71 @@
+---
+title: "Lysine Analysis"
+author: Chase Mateusiak, chasem@wustl.edu
+date: "`r Sys.Date()`"
+knit: (function(inputFile, encoding) { 
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), "../docs", 'index.html')) })
+output: 
+  html_document
+---
+
+```{r setup}
+library(tidyverse)
+library(DESeq2)
+library(here)
+
+source(here("R/lysine_focused_results.R"))
+source(here("R/parse_cc_df.R"))
+
+# gene sets of interest --------------------------------------------------------
+
+# https://www.sciencedirect.com/science/article/pii/S1097276515002695?via%3Dihub
+# 
+# One pathway that can regulate cellular homeostasis is the ubiquitin-proteasome
+# system (UPS). The UPS regulates numerous cellular processes, including cell-cycle
+# progression, gene transcription, protein quality control, and signal transduction.
+# Ubiquitination is achieved through the action of three enzyme classes:
+#   E1-ubiquitin-activating enzymes, E2-ubiquitin-conjugating enzymes, and
+# E3-ubiquitin ligases. In S. cerevisiae, one type of multisubunit E3 ligase
+# complex, the SCF complex, consists of Skp1, Cdc53/Cul1, F box protein, and the
+# RING-finger domain containing Rbx1/Roc1/Hrt1
+# (Deshaies and Joazeiro, 2009, Harper and Tan, 2012). While Cdc53, Rbx1, and
+# Skp1 are unvarying components, the F box protein is a highly variable component,
+# and different F box proteins recruit different substrates for ubiquitination and
+# degradation by the proteasome (Mark et al., 2014). S. cerevisiae encode ∼20 F box
+# proteins (Willems et al., 2004, Jonkers and Rep, 2009), whereas mammals encode
+# ∼70 (Wang et al., 2014) and Arabidopsis thaliana encodes ∼700 (Lechner et al., 2006).
+# However, in S. cerevisiae, while many substrates have been identified for
+# well-characterized F box proteins, such as Cdc4 and Grr1, few or no known
+# degradation substrates have been identified for most of the remaining
+# F box proteins. Therefore, it is imperative to identify the substrates of each
+# F box protein to further elucidate the physiological roles of SCF ubiquitin
+# ligase complexes (Deshaies and Joazeiro, 2009, Skaar et al., 2013).
+eds1_lysine_input_genes = c(
+  'Skp1',
+  # human homolog Cul1
+  'Cdc53',
+  'Rbx1',
+  'Roc1',
+  'Hrt1',
+  'Ucc1',
+  'Cdc19',
+  'Cit1',
+  'Cit2',
+  'Cit3',
+  'Aco1',
+  'Aco2'
+)
+```
+
+```{r}
+x = gprofiler2::gconvert(query = eds1_lysine_input_genes, organism = 'scerevisiae')
+
+sig_bound_genes = cc_df %>%
+  filter(pval < .05) %>%
+  pull(id)
+
+lysine_focused_results_bound = lysine_focused_results[rownames(lysine_focused_results) %in% cc_df$id, ]
+```
+

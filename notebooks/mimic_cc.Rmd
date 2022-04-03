@@ -10,6 +10,15 @@ output:
   html_document
 ---
 
+# plot the background and foreground for GSEA analysis
+https://www.huber.embl.de/users/klaus/Teaching/DESeq2Predoc2014.html#gene-ontology-enrichment-analysis
+
+# goStats has some analysis suggestions
+https://bioconductor.org/packages/release/bioc/vignettes/GOstats/inst/doc/GOvis.pdf
+
+# profilr -- combine chip and rnaseq
+#https://bioconductor.org/packages/devel/bioc/vignettes/profileplyr/inst/doc/profileplyr.html
+
 # see this data set + chp on diaxic shift in gcr1 mutants
 # https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153842
 
@@ -37,6 +46,8 @@ library(tidyverse)
 library(DT)
 library(pheatmap)
 library(here)
+library(gridExtra)
+library(grid)
 ```
 
 ```{r, include=FALSE, echo=TRUE}
@@ -47,6 +58,7 @@ library(tidyverse)
 library(DT)
 library(pheatmap)
 library(here)
+library(gridExtra)
 
 library(ggVennDiagram)
 # note that to install this i needed
@@ -56,11 +68,29 @@ library(ggVennDiagram)
 
 source(here("R/create_long_results_df.R"))
 source(here("R/gene_sets_of_interest.R"))
-source(here("R/get_set_heatmap.R"))
+source(here("R/getSetHeatmap.R"))
 source(here("R/venn_diagram_gene_lists.R"))
 source(here("R/plotGeneCount.R"))
+source(here("R/plot_counts_eds1_rgt1_double.R"))
+source(here("R/multiplot.R"))
 
 yeast_gff = rtracklayer::import(Sys.getenv("yeast_gff"))
+
+cc_df = read_csv("../../shared_data/Combined_Eds1_Rgt1_Lys14_CCTargets.csv")
+
+topgo_res = list(
+  res_lists = readRDS(here("data/topGO_out/go_results_objects.rds")),
+  venn_sets = readRDS(here("data/topGO_out/go_results_objects_by_venn_set.rds"))
+)
+
+venn = getVennResults(shrunken_res_lists,1,.05)
+
+long_df_filter_policy = "padj < .05, shrunken lfc > .05"
+```
+
+# prep cc for cytoscape
+```{r}
+x = cc_df %>% pivot_longer(-c(id, symbol), names_to = 'condition', values_to = 'cc_padj') %>% mutate(lysine = ifelse(str_detect(condition, 'plus'), 'plus', 'minus'), ko = str_extract(condition, "\\w+\\d+")) %>% mutate(ko = str_replace('eds1', 'YBR033W')) %>% mutate(ko = str_replace('rgt1', 'YKL038W')) %>% mutate(ko = str_replace('eds1', 'YBR033W'))
 ```
 
 
@@ -131,64 +161,15 @@ plt
 # Plot gene with the most significant effect btwn aminoAcid groups
 
 ```{r plt gene with most significant btwn group effect, echo = FALSE}
-# see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
-
-interaction_term_res = results(dds)
-
-gene_index = which.min(interaction_term_res$padj) #which(rownames(interaction_term_res) == "YOR105W") #
-
-gene_plt <- plotCounts(dds, gene_index, 
-                   intgroup = c("genotype","aminoAcid"), 
-                   returnData = TRUE,
-                   normalized = TRUE) %>%
-  mutate(count = log2(count))
-
-ylim_min = 0
-ylim_max = 15
-
-plt1 = gene_plt %>%
-  filter(genotype %in% c("WT", "EDS1")) %>%
-ggplot(
-  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
-  geom_point() + 
-  stat_summary(fun=mean, geom="line") +
-  ylim(ylim_min,ylim_max)+
-  labs(y = "log2(norm_count)", x = "") 
-
-plt2 = gene_plt %>%
-  filter(genotype %in% c("WT", "RGT1")) %>%
-ggplot(
-  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
-  geom_point() + 
-  stat_summary(fun=mean, geom="line") +
-  ylim(ylim_min,ylim_max)+
-  labs(y = "", x = "genotype")
-
-plt4 = gene_plt %>%
-  filter(genotype %in% c("WT", "EDS1_RGT1")) %>%
-ggplot(
-  aes(x = genotype, y = count, color = aminoAcid, group = aminoAcid)) +
-  geom_point() + 
-  stat_summary(fun=mean, geom="line") +
-  ylim(ylim_min,ylim_max)+
-  labs(y = "", x = "")
-
-```
-
-```{r}
-ptchwrk = plt1 + plt2+ plt4 + plot_layout(guides = 'collect')
-
-gene_name = "THI4"
-gene_id = 'YGR144W'
-
-ptchwrk = ptchwrk + plot_annotation(
-  title = gene_name,
-  subtitle = gene_id
-) & theme_minimal()
-
-# ggsave(here("plots/condition_specific_THI4.png"), ptchwrk, device = "pdf")
-
-ptchwrk
+library(foreach)
+shrunken_res_lists$compare_interaction$eds1_rgt1_double_vs_single_effects %>%
+     as_tibble(rownames = "id") %>%
+     filter(abs(log2FoldChange) > 2, padj < .05) %>% 
+     left_join(cc_df) %>%
+     filter(eds1_plus_lys_pval < .07 | eds1_minus_lys_pval < .07) %>%
+  foreach(i = iterators::iter(., by='row')) %do%{
+    plotEds1Rgt1DoubleCounts(i$symbol, i$id)
+  }
 ```
 
 ```{r}
@@ -220,14 +201,19 @@ LYS4, LYS9, ACO2 are the only genes for which |LFC| > 1.
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$lysine_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_", "EDS1_LYS14_"), 
-              c('plus_lys', 'minus_lys'), "lysine genes -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14", "EDS1_LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("lysine genes -- ", long_df_filter_policy))
 ```
 
 
 # same with LYS
 
 # Eds1 has a repressive efect on glyoxylate cycle genes -- combine with TCA network
+
+```{r}
+getSetHeatMap(long_res_df, gene_set_df_list$glyoxylate)
+```
+
 
 ## Eds1 has a repressive effect on TCA cycle genes
 
@@ -238,24 +224,24 @@ up.
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$tca_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
-              c('plus_lys', 'minus_lys'), "tca cycle genes -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("tca cycle genes -- ", long_df_filter_policy))
 ```
 
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$membrane_transport_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "membrane transport -- unfiltered for lfc or padj")
+              paste0("membrane transport -- ", long_df_filter_policy))
 ```
 
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$response_to_glucose_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "response to glucose -- unfiltered for lfc or padj")
+              paste0("response to glucose -- ", long_df_fltr_policy))
 ```
 
 # Eds1 directly represses SKS1 in both galactose +/- lysine.
@@ -269,41 +255,69 @@ SNF3 null strains. Confusing b/c SKS means suppressor kinase of snf3.
 
 
 ```{r}
+getSetHeatMap_aug = function(long_res_df, pathway_genes_df, select_genotypes,
+                         select_conditions, title, text_size = 20){
 
-getSetHeatMap(long_res_df, gene_set_df_list$hexose_transmem_trans_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+  long_res_df %>%
+    filter(id %in% pathway_genes_df$id) %>%
+    mutate(shrunk_lfc = replace_na(shrunk_lfc, 0)) %>%
+    # set a cutoff on the LFC to scale the gradation in the heatmap/colors
+    # for those genes that are 3 or more, they should be split out and examined
+    # separately
+    mutate(shrunk_lfc = ifelse(shrunk_lfc > 2, 2, shrunk_lfc)) %>%
+    mutate(shrunk_lfc = ifelse(shrunk_lfc < -2, -2, shrunk_lfc)) %>%
+    filter(genotype %in% select_genotypes) %>%
+    filter(condition %in% select_conditions) %>%
+    left_join(pathway_genes_df) %>%
+    ggplot() +
+    geom_tile(aes(genotype, symbol, fill = shrunk_lfc  ), color = "black") +
+    scale_fill_gradient2(low = "#075AFF",
+                         mid = "white",
+                         high = "#FF0000") +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+          text = element_text(size = text_size)) +
+    ggtitle(title) +
+    facet_grid(cols = vars(condition))
+}
+
+hxt_trns_set = gene_set_df_list$hexose_transmem_trans_genes %>%
+  rbind(tibble(symbol = c("HXT1", "HXT2", "HXT12"), id = c("YHR094C", "YMR011W", "YIL170W"))) %>%
+  mutate(symbol = factor(symbol, levels = paste0(rep("HXT", 17), seq(17,1))))
+
+getSetHeatMap_aug(long_res_df, hxt_trns_set, 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "hexose tarnsmembrane transporter genes -- unfiltered for lfc or padj")
+              paste0("hexose tarnsmembrane transporter genes -- ", long_df_filter_policy))
 ```
 
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$glucose_transmem_trans_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "glucose transmembrane transport genes -- unfiltered for lfc or padj")
+              paste0("glucose transmembrane transport genes -- ", long_df_filter_policy))
 ```
 
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$glucose_transmem_transport_activity_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "glucose transmem trans activity -- unfiltered for lfc or padj")
+              paste0("glucose transmem trans activity -- ", long_df_filter_policy))
 ```
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$glucose_import_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "glucose import -- unfiltered for lfc or padj")
+              paste0("glucose import -- ", long_df_filter_policy))
 ```
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$hexokinase_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "LYS14", "EDS1_RGT1", "EDS1_LYS14"), 
               c('plus_lys', 'minus_lys'), 
-              "hexokinase -- unfiltered for lfc or padj")
+              paste0("hexokinase -- ", long_df_filter_policy))
 ```
 
 
@@ -311,8 +325,8 @@ getSetHeatMap(long_res_df, gene_set_df_list$hexokinase_genes,
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$glyoxylate_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
-              c('plus_lys', 'minus_lys'), "glyoxylate genes -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("glyoxylate genes -- ", long_df_filter_policy))
 
 ```
 
@@ -324,8 +338,8 @@ have a role in fermentation
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$anaerobic_resp_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
-              c('plus_lys', 'minus_lys'), "anaerobic respiration -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("anaerobic respiration -- ", long_df_filter_policy))
 ```
 
 
@@ -337,16 +351,16 @@ to genes which a given perturbed locus is supressing. Expecting few of those?
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$aerobic_resp_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
-              c('plus_lys', 'minus_lys'), "aerobic respiration -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("aerobic respiration -- ", long_df_filter_policy))
 ```
 
 
 ```{r}
 
 getSetHeatMap(long_res_df, gene_set_df_list$glycolytic_genes, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
-              c('plus_lys', 'minus_lys'), "glycolysis genes -- unfiltered for lfc or padj")
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
+              c('plus_lys', 'minus_lys'), paste0("glycolysis genes -- ", long_df_filter_policy))
 
 ```
 
@@ -362,25 +376,46 @@ CHASE QUESTION: why would the presence/absence of lysine affect TCA cycle?
 # Eds1 and Rgt1 directly regulate many common targets in the same direction
 
 ```{r}
-venn$plots$minus_lys$up$singles
+png(here("plots/plus_lysine_venn.png"),width = 800, height = 800, bg = "white")
+grid.arrange(venn$plots$plus_lys$up$singles, 
+          venn$plots$plus_lys$down$singles,
+          venn$plots$minus_lys$up$singles, 
+          venn$plots$minus_lys$down$singles,
+          top = grid::textGrob("Plus Lysine",gp=gpar(fontsize=30,font=3)),
+          bottom = grid::textGrob("Minus Lysine",gp=gpar(fontsize=30,font=3)))
+dev.off()
+
+grid.arrange(venn$plots$plus_lys$up$singles, 
+          venn$plots$plus_lys$down$singles,
+          venn$plots$minus_lys$up$singles, 
+          venn$plots$minus_lys$down$singles,
+          top = textGrob("Plus Lysine",gp=gpar(fontsize=30,font=3)),
+          bottom = textGrob("Minus Lysine",gp=gpar(fontsize=30,font=3)))
 ```
-
-
 
 ```{r}
-venn$plots$minus_lys$down$singles
+DT::datatable(topgo_res$venn_sets$bp$plus_lys$eds1_only$results$summary, 
+              class = "display")
 ```
 
 ```{r}
-venn$plots$plus_lys$up$singles
+library(gridExtra)
+grid.arrange(venn$plots$plus_lys$up$eds1_vs_lys14, 
+          venn$plots$plus_lys$down$eds1_vs_lys14,
+          venn$plots$minus_lys$up$eds1_vs_lys14, 
+          venn$plots$minus_lys$down$eds1_vs_lys14,
+          top = textGrob("Plus Lysine",gp=gpar(fontsize=30,font=3)),
+          bottom = textGrob("Minus Lysine",gp=gpar(fontsize=30,font=3)))
 ```
 
 ```{r}
-venn$plots$plus_lys$down$singles
+grid.arrange(venn$plots$plus_lys$up$eds1_vs_rgt1, 
+          venn$plots$plus_lys$down$eds1_vs_rgt1,
+          venn$plots$minus_lys$up$eds1_vs_rgt1, 
+          venn$plots$minus_lys$down$eds1_vs_rgt1,
+          top = textGrob("Plus Lysine",gp=gpar(fontsize=30,font=3)),
+          bottom = textGrob("Minus Lysine",gp=gpar(fontsize=30,font=3)))
 ```
-
-
-intersect top up/down genes in eds1/rgt1, do GO
 
 Do the same with complements
 
@@ -404,6 +439,27 @@ bind_rows(shrunken_res_lists$plus_lys$LYS14 %>%
   geom_bar(aes(interaction(condition, genotype), log2FoldChange, fill = gene), stat='identity', position = 'dodge') + ylim(-.5, .5)
 
 ```
+
+```{r}
+
+bind_rows(shrunken_res_lists$plus_lys$RGT1 %>%
+              as_tibble(rownames = 'gene') %>%
+              select(gene, log2FoldChange, padj) %>%
+              mutate(condition = 'plus_lys',
+                     genotype = 'LYS14'),
+            shrunken_res_lists$minus_lys$RGT1 %>%
+              as_tibble(rownames = 'gene') %>%
+              select(gene, log2FoldChange, padj) %>%
+              mutate(condition = 'minus_lys',
+                     genotype = 'LYS14')
+            ) %>%
+  filter(gene %in% c('YDR034C', 'YBR033W')) %>%
+  ggplot() + 
+  geom_bar(aes(interaction(condition, genotype), log2FoldChange, fill = gene), stat='identity', position = 'dodge') + ylim(-.5, .5)
+
+
+```
+
 
 ```{r}
 
@@ -459,10 +515,6 @@ plotGeneCountCustom(dds, 'YGL035C', 'MIG1')$combined
 plotGeneCountCustom(dds, 'YGL209W', 'MIG2')$combined
 ```
 
-```{r}
-plotGeneCountCustom(dds, 'YGL209W', 'MIG2')$combined
-```
-
 # Phosphate Regulation
 
 * Eds1 causes highly significant repression of PHO11, PHO12, PHO89 (11-fold), SPL2 (32-fold) across all time points.
@@ -488,19 +540,19 @@ plotGeneCountCustom(dds, 'YHR136C', 'SPL2')$combined
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$acid_phosphate_activity, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
               c('plus_lys', 'minus_lys'), "acid phosphate activity -- unfiltered for lfc or padj")
 ```
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$phosphate_ion_transmem_transport, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
               c('plus_lys', 'minus_lys'), "phosphate_ion_transmem_transport -- unfiltered for lfc or padj")
 ```
 
 ```{r}
 getSetHeatMap(long_res_df, gene_set_df_list$phoscontaining_compound_meta_proc, 
-              c("EDS1_", "RGT1_", "EDS1_RGT1_", "LYS14_"), 
+              c("EDS1", "RGT1", "EDS1_RGT1", "LYS14"), 
               c('plus_lys', 'minus_lys'), "phoscontaining_compound_meta_proc -- unfiltered for lfc or padj")
 ```
 
@@ -522,6 +574,627 @@ Eds1 directly represses MTH1 in galactose with lysine.
 ```{r}
 plotGeneCountCustom(dds, 'YDR277C', 'MTH1')$combined
 ```
+
+```{r}
+plotGeneCountCustom(dds, 'YIL074C', 'SER33')$combined
+```
+
+# Binding Data
+
+```{r}
+library(ggmsa)
+
+
+sig_binding_eds1 = cc_df %>% 
+  filter(eds1_minus_lys_pval < .00005, eds1_plus_lys_pval < .00005) %>%
+  pull(id)
+
+library(TxDb.Scerevisiae.UCSC.sacCer3.sgdGene)
+library(BSgenome.Scerevisiae.UCSC.sacCer3)
+
+yeast_gff = TxDb.Scerevisiae.UCSC.sacCer3.sgdGene
+yeast_genes = genes(yeast_gff)
+
+yeast_genome = BSgenome.Scerevisiae.UCSC.sacCer3
+
+eds1_bound_genes = yeast_genes[yeast_genes$gene_id %in% sig_binding_eds1]
+
+eds1_bound_genes_promoters = promoters(eds1_bound_genes, upstream =150, downstream = 0)
+
+eds1_bound_gene_prom_seqs = getSeq(yeast_genome, eds1_bound_genes_promoters)
+
+pfm <- consensusMatrix(eds1_bound_gene_prom_seqs, baseOnly = TRUE)
+pwm <- PWM(consensusMatrix(eds1_bound_gene_prom_seqs))
+
+ggmsa(eds1_bound_gene_prom_seqs, 50, 100, seq_name = TRUE, color = "Chemistry_NT") + geom_seqlogo() + geom_msaBar()
+
+```
+
+```{r}
+colnames(cc_df) = tolower(colnames(cc_df))
+
+goi_list = list(
+  hexose_trns_and_regs = c(
+    'HXT1', 
+    'HXT2', 
+    'HXT3', 
+    'HXT4', 
+    'HXT6', 
+    'HXT7',
+    'MIG2', 
+    'MIG3', 
+    'MTH1',
+    'STD1'),
+  glucose_to_citrate = c(
+    'CDC19',
+    'HXK1',
+    'HXK2',
+    'GLK1',
+    'UCC1'
+  ),
+  ribosome_biogen = c(
+    'RPL3',
+    'HAS1'
+  ),
+  oxidative_or_dna_rep_stress = c(
+    'AQR1',
+    'AHP1',
+    'DAK2',
+    'ECM4',
+    'RMI1',
+    'TOP3',
+    'SGS1',
+    'GTO1',
+    'GLN1',
+    'TRR1'
+  ),
+  aa_transport = c(
+    'Uga4',
+    'Atg22',
+    'Vba1',
+    'Vba2',
+    'Vba3',
+    'Avt1',
+    'Avt3',
+    'Avt4',
+    'Avt6',
+    'Avt7',
+    'Ers1',
+    'Ypq1',
+    'Ypq2',
+    'Ypq3',
+    'Aqr1',
+    'QDR1',
+    'Mmp1',
+    'Vba5',
+    'Yct1',
+    'Gap1',
+    'Agp1',
+    'Bap2',
+    'Bap3',
+    'Agp2',
+    'Agp3',
+    'Gnp1',
+    'Tat1',
+    'Tat2',
+    'Tat3',
+    'Dip5',
+    'Put4',
+    'Alp1',
+    'Can1',
+    'Hip1',
+    'Lyp1',
+    'Mup1',
+    'Mup3'
+  )
+)
+
+goi_list$aa_transport = toupper(goi_list$aa_transport)
+
+x = reduce(list(
+  as_tibble(shrunken_res_lists$plus_lys$EDS1, rownames = 'id') %>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_plus_lys")),
+  as_tibble(shrunken_res_lists$minus_lys$EDS1, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_minus_lys")),
+  as_tibble(shrunken_res_lists$plus_lys$RGT1, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_rgt1_plus_lys")),
+  as_tibble(shrunken_res_lists$minus_lys$RGT1, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_rgt1_minus_lys")), 
+  as_tibble(shrunken_res_lists$plus_lys$LYS14, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_lys14_plus_lys")),
+  as_tibble(shrunken_res_lists$minus_lys$LYS14, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_lys14_minus_lys")), 
+  as_tibble(shrunken_res_lists$plus_lys$EDS1_RGT1, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_rgt1_plus_lys")),
+  as_tibble(shrunken_res_lists$minus_lys$EDS1_RGT1, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_rgt1_minus_lys")), 
+  as_tibble(shrunken_res_lists$plus_lys$EDS1_LYS14, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_lys14_plus_lys")),
+  as_tibble(shrunken_res_lists$minus_lys$EDS1_LYS14, rownames = 'id')%>%
+    rename_at(vars(!starts_with("id")), ~paste0( ., "_eds1_lys14_minus_lys"))
+), left_join, by = "id") %>%
+  pivot_longer(-id) %>%
+  mutate(metric = str_extract(name, '(.*?)\\_')) %>%
+  mutate(name = str_remove(name, '(.*?)\\_'),
+         metric = str_remove(metric, "\\_")) %>%
+  mutate(ko = str_extract(name, '(.*?)\\_plus|(.*?)\\_minus')) %>%
+  mutate(ko = str_remove(ko, "_plus|_minus")) %>%
+  mutate(lysine = ifelse(str_detect(name, "plus"), 'plus', 'minus')) %>%
+  dplyr::select(-name) %>%
+  pivot_wider(names_from = metric) %>%
+  left_join(cc_df %>% 
+              pivot_longer(-c(id,symbol), values_to = 'cc_pval') %>% 
+              mutate(lysine = 
+                       ifelse(str_detect(name, 'plus'), 
+                              'plus', 
+                              'minus'),
+                     ko = str_extract(name, '(.*?)\\_')) %>%
+              mutate(ko = str_remove(ko, "_$")) %>%
+              dplyr::select(-name)) %>%
+  filter(complete.cases(.))
+```
+
+
+```{r}
+plt = x %>%
+  filter(symbol %in% goi_list$glucose_to_citrate) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+```
+aa transport genes
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7405077/#!po=5.17241
+```{r}
+
+plt = x %>%
+  filter(symbol %in% goi_list$aa_transport) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine)) +
+  ggtitle("AA transport")
+
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+plt = x %>%
+  filter(symbol %in% c("SOD1", "SOD2"), padj < .05) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+
+plt = x %>%
+  filter(symbol %in% c("HXT9", "HXT11")) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+```
+
+
+```{r}
+plt = x %>%
+  filter(symbol %in% goi_list$ribosome_biogen) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+
+plt = x %>%
+  filter(symbol %in% goi_list$oxidative_or_dna_rep_stress) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+
+```
+
+
+```{r}
+
+plt = x %>%
+  filter(cc_pval < .05, log2FoldChange > 1) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine))
+
+  plotly::ggplotly(plt)
+
+```
+
+# Effect of EDS1 on lysine gene expr
+
+```{r}
+
+dds_vst = vst(dds, blind = FALSE)
+
+library(foreach)
+library(doParallel)
+lysine_expr = foreach(
+  i = gene_set_df_list$lysine_genes$id,
+  .combine = 'rbind'
+) %do% {
+  x = plotCounts(dds, 
+             gene = i, 
+             intgroup = c("aminoAcid", "genotype"), 
+             returnData = TRUE,
+             normalized = TRUE,
+             transform = TRUE)
+  x$gene = gene_set_df_list$lysine_genes %>%
+    filter(id == i) %>%
+    pull(symbol)
+  x
+}
+
+lysine_expr %>%
+  as_tibble() %>%
+  filter(genotype %in% c('EDS1', 'WT')) %>%
+  group_by(gene,genotype, aminoAcid) %>%
+  summarize(med_count = median(count)) %>%
+  pivot_wider(names_from = c(genotype, aminoAcid), values_from = med_count) %>%
+  dplyr::select(WT_plus_lys, WT_minus_lys, EDS1_minus_lys) %>%
+  pivot_longer(-c(gene), names_to = 'cond', values_to = 'count') %>%
+  mutate(lys = ifelse(str_detect(cond, 'minus'), 'minus_lys', 'plus_lys')) %>%
+  mutate(cond = str_remove(cond, "_plus_lys|_minus_lys")) %>%
+  mutate(lys = factor(lys, levels = c("plus_lys", "minus_lys"))) -> data
+
+  ggplot(data, aes(x=lys, y=count, color = gene, group = gene)) +
+  scale_y_log10() + 
+  geom_point(size = 4) +
+  geom_line(data = filter(data, (cond == 'EDS1' | (cond == 'WT' & lys == 'plus_lys'))),
+            aes(x = lys, y = count, group = gene), color = "red") +
+  geom_line(data = filter(data, (cond == 'WT' | (cond == 'WT' & lys == 'plus_lys'))),
+            aes(x = lys, y = count, group = gene),  color = "black")
+    
+```
+
+```{r}
+lysine_expr %>%
+  as_tibble() %>%
+  filter(genotype %in% c('EDS1', 'WT')) %>%
+  group_by(gene,genotype, aminoAcid) %>%
+  summarize(med_count = median(count)) %>%
+  filter(gene %in% c('ARO9', 'ACO2')) %>%
+  ggplot(aes(x=aminoAcid, y=med_count, color=gene, group=gene)) +
+  scale_y_log10() + 
+  geom_point() +
+  geom_line() +
+  facet_grid(vars(genotype))
+```
+
+```{r}
+library(ggsci)
+x %>%
+  filter(symbol %in% c('HXT2', 'HXT4', 'HXT6', 'HXT7', 'MTH1'), cc_pval < .05) %>%
+  mutate(log2FoldChange = ifelse(padj > .05, 0, log2FoldChange)) %>%
+  mutate(symbol = factor(symbol, 
+                         levels = goi_list$hexose_trns_and_regs)) %>%
+  droplevels() %>%
+  ggplot() + 
+  geom_bar(aes(symbol, log2FoldChange, 
+               fill=ko), 
+           stat='identity', 
+           position = 'dodge',
+           width = .4) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_manual(values = c("rgt1" = pal_npg("nrc")(10)[6], 
+                               "eds1" = "orange")) +
+  facet_wrap(~lysine, nrow = 2, ncol = 1, strip.position = 'right') +
+  ggtitle("High Affinity Hexose Transporters")
+```
+```{r}
+plt = x %>%
+  filter(symbol %in% c('HXT2', 'HXT4', 'HXT6', 'HXT7', 'MTH1')) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine)) +
+  ggtitle("High Affinity Glucose Transporters")
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+library(ggsci)
+x %>%
+  filter(symbol %in% c('HXT1', 'HXT3', 'MIG2', 'STD1'), cc_pval < .05) %>%
+  mutate(log2FoldChange = ifelse(padj > .05, 0, log2FoldChange)) %>%
+  mutate(symbol = factor(symbol, 
+                         levels = goi_list$hexose_trns_and_regs)) %>%
+  droplevels() %>%
+  ggplot() + 
+  geom_bar(aes(symbol, log2FoldChange, 
+               fill=ko), 
+           stat='identity', 
+           position = 'dodge',
+           width = .4) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_manual(values = c("rgt1" = pal_npg("nrc")(10)[6], 
+                               "eds1" = "orange")) +
+  facet_wrap(~lysine, nrow = 2, ncol = 1, strip.position = 'right') +
+  ggtitle("Low Affinity Hexose Transporters")
+```
+```{r}
+plt = x %>%
+  filter(symbol %in% c('HXT1', 'HXT3', 'MIG2', 'STD1')) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine)) +
+  ggtitle("Low Affinity Glucose Transporters")
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+plt = x %>%
+  filter(symbol %in% c('IDH1', 'IDH2', 'ABF1'), padj < .05) %>%
+  mutate(cc_pval = -log10(cc_pval)) %>%
+  mutate(cc_pval = ifelse(cc_pval == Inf, 10, cc_pval)) %>%
+  ggplot(aes(log2FoldChange,cc_pval)) +
+  geom_point(aes(color = symbol)) +
+  geom_hline(yintercept = -log10(.05)) +
+  geom_vline(xintercept = .5) +
+  geom_vline(xintercept = -.5) +
+  facet_grid(cols = vars(ko), rows = vars(lysine)) +
+  ggtitle("Low Affinity Glucose Transporters") +
+  theme(axis.text = element_text(size = 20))
+
+  plotly::ggplotly(plt)
+```
+
+```{r}
+x = long_res_df %>% 
+  filter(genotype %in% c("EDS1", "RGT1"), abs(shrunk_lfc) > .5) %>% 
+  left_join(cc_df) %>% 
+  filter(eds1_plus_lys_pval < .1 | 
+           eds1_minus_lys_pval < .1 | 
+           rgt1_plus_lys_pval < .1 | 
+           rgt1_minus_lys_pval < .1) %>% 
+  group_by(genotype) %>% 
+  group_split()
+names(x) = c('EDS1', 'RGT1')
+
+eds1_only = setdiff(pull(filter(x$EDS1, eds1_plus_lys_pval < .1 | 
+           eds1_minus_lys_pval < .1), symbol), pull(filter(x$RGT1, rgt1_plus_lys_pval < .1 | 
+           rgt1_minus_lys_pval < .1), symbol)) 
+
+x$RGT1 %>% 
+  filter(id %in% go2gn$`GO:0019319`) %>% View()
+
+
+```
+
+```{r}
+symbol_vec = select(org.Sc.sgd.db, keys = go2gn$`GO:0019319`, keytype = 'ORF', columns = c('COMMON', 'DESCRIPTION'))
+
+symbol_vec_df = symbol_vec %>%
+  as_tibble() %>%
+  distinct(ORF, .keep_all = TRUE)
+
+hexose_biosyn_df = tibble(
+  tibble(id = go2gn$`GO:0019319`)
+) %>% left_join(symbol_vec_df, by = c('id' = 'ORF')) %>%
+  dplyr::rename(symbol = COMMON) %>%
+  distinct(id, .keep_all = TRUE)
+
+hexose_biosynthesis = getSetHeatMap(
+  long_res_df,hexose_biosyn_df, c("EDS1", "RGT1", "LYS14", "EDS1_RGT1"), c("plus_lys", "minus_lys"), 'hexose biosynthetic'
+)
+```
+
+
+```{r}
+x %>%
+  filter(id %in% gene_set_df_list$lysine_genes$id) %>%
+  mutate(symbol = factor(symbol, levels = c("ACO2", "ARO8", "ARO9",
+                                            'LYS1', 'LYS2', 'LYS4', 'LYS5',
+                                            'LYS9', 'LYS12', 'LYS20', 'LYS21'))) %>%
+  ggplot() + 
+  geom_bar(aes(symbol, log2FoldChange, 
+               fill=ko), stat='identity', position = 'dodge') +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_manual(values = c("rgt1" = pal_npg("nrc")(10)[6], 
+                               "eds1" = "orange", 
+                               "lys14" = pal_npg("nrc")(10)[1])) +
+  facet_wrap(~lysine, nrow = 2, ncol = 1, strip.position = 'right')
+```
+
+```{r}
+map2(gene_set_df_list$lysine_genes$id, gene_set_df_list$lysine_genes$symbol,
+     ~plotGeneCountCustom(dds_lrt, .x, .y)$combined)
+```
+
+```{r}
+glucose_upreg_genes = c(
+  'YLR420W',
+'YEL040W',
+'YOR047C',
+'YER028C',
+'YKL068W-A',
+'YCR021C',
+'YPR156C',
+'YOR107W',
+'YBL069W',
+'YNCP0005C',
+'YBR085W',
+'YBR238C',
+'YKL216W',
+'YOL014W',
+'YNR060W',
+'YNL024C',
+'YLR413W',
+'YDL241W',
+'YDL039C',
+'YDL037C',
+'YGL209W',
+'YMR319C',
+'YJR047C',
+'YIL177C',
+'YPR157W',
+'YDR222W',
+'YDR345C',
+'YGR138C',
+'YHR094C'
+)
+
+y = long_res_df %>%
+  mutate(lysine = ifelse(str_detect('condition', 'plus'), 'plus', 'minus')) %>%
+  dplyr::rename(ko = genotype) %>%
+  dplyr::select(-condition)
+
+x = cc_df %>% filter(
+  id %in% glucose_upreg_genes,
+  pval < .05 
+) %>%
+  group_by(ko, lysine) %>%
+  arrange(desc(pval), .by_group = TRUE) %>%
+  mutate(ko = toupper(ko)) %>%
+  left_join(y)
+```
+
+Get genes affected by lysine
+
+```{r}
+
+```
+
+
+# FINAL RESULTS
+
+Eds1 has an activating effect on glycolysis genes, primarily in low glucose, high glucose, and galactose with lysine conditions.
+Eds1 has a repressive effect on expression of glyoxylate cycle genes.--Combine glyoxylate and TCA networks
+Eds1 has a mostly repressive effect on expression of TCA cycle genes.
+It is not immediately clear what Eds1’s effect on fermentation pathway genes is.
+Eds1 and Rgt1
+Eds1 and Rgt1 directly regulate many common targets in the same direction.
+According to single deletions--double deletions not yet processed because DE analysis pipeline needs to be moved to cluster.
+Regulation of Eds1
+There is no evidence in the single-deletion data for regulation of EDS1 by Rgt1, Mig1, or Mig2.
+Westholm et al found that Mig1 and Mig2 coregulate EDS1--yet to be determined in our double deletions.
+Lysine Biosynthesis Genes--Revist
+Eds1 activates LYS4, ACO2, LYS9, LYS12, CTP1, LYS2, LYS1, LYS14 in low glucose -lysine.
+LYS4 repressed in galactose +/-lysine, ACO2 repressed in galactose -lysine, LYS2 repressed in high glucose.
+LYS4, LYS9, ACO2 are the only genes for which |LFC| > 1.
+HXT Regulation network
+Eds1 strongly and directly activates HXK1, where Rgt1 does not.
+Eds1 directly represses MTH1 in galactose with lysine.
+Rgt1 represses in galactose with lysine, galactose without lysine, high glucose late.
+Mig1 represses in high glucose early, high glucose late.
+Mig2 activates in high glucose early, represses in high glucose late.
+Rgt1, Mig1, Mig2 all represses MTH1 according to Kuttykrishnan et al.
+Eds1 indirectly represses STD1 in galactose with lysine and galactose without lysine.
+Rgt1 represses STD1 in galactose with lysine, galactose without lysine, and low glucose.
+Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
+Rgt1 represses MIG1 in galactose +/- lysine.
+Eds1 directly represses SKS1 in both galactose +/- lysine.
+SKS1 is a repressor kinase of SNF3 (Yeast Genome), a low glucose sensor required for induction of certain hexose transporters and which triggers inhibition of Rgt1 (Ozcan et al, 1998).
+Eds1 directly activates CDC19 in galactose +lysine.
+CDC19 synthesizes pyruvate from phosphoenolpyruvate, the last step before TCA.
+Rgt1 directly represses CDC19 in our -lysine conditions, but activates in galactose +lysine.
+Phosphate Regulation
+Eds1 causes highly significant repression of PHO11, PHO12, PHO89 (11-fold), SPL2 (32-fold) across all time points.
+Also causes highly significant activation of PHO89 in galactose +lysine.
+No evidence of direct binding.
+Rgt1 also causes highly significant repression of these genes in glucose -lysine.
+EDS1 deletion causes highly significant repression of PHO84 (11-fold) from T-1 to T90 glucose -lysine.
+No evidence of direct binding.
+Rgt1 also causes highly significant repression in glucose -lysine.
+Mig1 activates in high glucose.
+Eds1 directly activates TDA1 in our glucose -lysine conditions.
+Protein of unknown function. Relocalizes from nuc to cytoplasm on DNA replication stress. RGT1, and to a lesser extent EDS1, do influence meiosis pathway genes.
+Directly activated by RGT1.
+Significant differential expression in Mig1 and Mig2 single deletions, but no evidence for direct binding.
+Listed as a phosphate-responsive gene by Ljungdahl et al, 2012 in phosphate-starvation conditions.
+Genes DE across all glucose -lysine timepoints in Eds1 deletion
+List
+PHO11: repressible acid phosphatase
+HHF1: histone H4
+PHO89: plasma membrane Na+/Pi cotransporter
+YBR296C-A: putative protein with unknown function
+HTA1: histone H2A
+PHM6: protein of unknown function
+KEI1: component of inositol phosphorylceramide synthase
+YDR413C: dubious ORF
+YDR433W: dubious ORF
+SPS2: protein expressed during sporulation
+YHL034W-A: dubious ORF
+SPL2: downregulates low-affinity phosphate transport during phosphate limitation
+PHO12: repressible acid phosphatase
+YIR042C: putative protein with unknown function
+MOG1: nuclear protein that interacts with GTP-Gsp1p, a protein involved in maintenance of nuclear organization
+MGM101: protein with role in mitochondrial DNA recombinatorial repair
+YLR076C: dubious ORF
+SUR7: component of eisosomes, possibly anchoring them in plasma membrane
+VPS75: binds histones and Rtt109, stimulating HAT activity
+RPL36B: ribosomal 60s subunit protein
+No significant GO terms were found for these genes
+Transcription factors
+Eds1 directly activates Mig3 in high glucose -lysine.
+Eds1 directly represses MIG1 in galactose no lysine, activates in glucose.
+Rgt1 represses MIG1 in galactose +/- lysine.
+Eds1 directly represses MTH1 in galactose with lysine.
+
 
 # NOTES
 

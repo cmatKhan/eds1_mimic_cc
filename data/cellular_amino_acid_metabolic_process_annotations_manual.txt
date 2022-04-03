@@ -1,0 +1,10 @@
+!
+!Date: 03/02/2022
+!From: Saccharomyces Genome Database (SGD) 
+!URL: http://www.yeastgenome.org/ 
+!Contact Email: sgd-helpdesk@lists.stanford.edu 
+!Funding: NHGRI at US NIH, grant number 5-U41-HG001315 
+!
+
+Gene/Complex	Systematic Name/Complex Accession	Qualifier	Gene Ontology Term ID	Gene Ontology Term	Aspect	Annotation Extension	Evidence	Method	Source	Assigned On	Reference
+MAE1	YKL029C	involved in	GO:0006520	cellular amino acid metabolic process	biological process		IMP	manually curated	SGD	2001-01-18	Boles E, et al. (1998) PMID:9603875
