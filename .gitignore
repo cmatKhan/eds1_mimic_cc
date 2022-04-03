@@ -1,3 +1,5 @@
 .Rproj.user
 .Renviron
 reports
+data/topGO_out
+data/bart_pattern_onto_cc_eds_rgt1.rds
