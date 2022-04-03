@@ -1,6 +1,9 @@
 library(DESeq2)
 library(tidyverse)
+<<<<<<< HEAD
 library(patchwork)
+=======
+>>>>>>> 8fa902069a054d712991ad24f35a0a2007b11ed5
 
 # see https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
 

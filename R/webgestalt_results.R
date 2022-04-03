@@ -3,10 +3,17 @@ library(DESeq2)
 library(WebGestaltR)
 library(here)
 
+<<<<<<< HEAD
 PADJ_THRES = 100
 LFC_THRES = 0
 MIN_NUM_GENES_IN_GO_CATEGORY = 5
 MAX_NUM_GENES_IN_GO_CATEGORY = 2000
+=======
+PADJ_THRES = .05
+LFC_THRES = 1
+MIN_NUM_GENES_IN_GO_CATEGORY = 5
+MAX_NUM_GENES_IN_GO_CATEGORY = 500
+>>>>>>> 8fa902069a054d712991ad24f35a0a2007b11ed5
 
 PROJECT_NAME = "mimic_cc"
 ENRICH_DB = listGeneSet(organism = "scerevisiae")[c(2,4,6,7,8,9,10,11,12), 'name']
@@ -61,8 +68,13 @@ for(res_list_name in names(res_list)){
     enrichMethod = "GSEA",
     organism = "scerevisiae",
     interestGeneType="ensembl_gene_id",
+<<<<<<< HEAD
     isParallel = FALSE,
     nThreads = 1,
+=======
+    isParallel = TRUE,
+    nThreads = 10,
+>>>>>>> 8fa902069a054d712991ad24f35a0a2007b11ed5
     enrichDatabase = ENRICH_DB,
     collapseMethod = "mean",
     minNum = MIN_NUM_GENES_IN_GO_CATEGORY,

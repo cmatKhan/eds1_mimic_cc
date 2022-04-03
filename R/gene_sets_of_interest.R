@@ -44,9 +44,13 @@ set_paths = list(
   phoscontaining_compound_meta_proc = c(here("data/phosphatecontaining_compound_metabolic_process_manual.txt"),
                                         here("data/phosphatecontaining_compound_metabolic_process_comp.txt")),
   phosphate_ion_transmem_transport = c(here("data/phosphate_ion_transmembrane_transport_manual.txt"),
+<<<<<<< HEAD
                                        here("data/phosphate_ion_transmembrane_transport_comp.txt")),
   cellular_amino_acid_metabolic_process = c(here("data/cellular_amino_acid_metabolic_process_annotations_manual.txt"),
                                        here("data/cellular_amino_acid_metabolic_process_annotations_comp.txt"))
+=======
+                                       here("data/phosphate_ion_transmembrane_transport_comp.txt"))
+>>>>>>> 8fa902069a054d712991ad24f35a0a2007b11ed5
 
 )
 

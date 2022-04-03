@@ -20,6 +20,7 @@ library(BiocParallel)
 # colnames(dds) = dds$sample
 
 # run deseq
+<<<<<<< HEAD
 # design(dds) = ~ genotype + aminoAcid + genotype:aminoAcid
 #
 # dds = DESeq(
@@ -28,6 +29,15 @@ library(BiocParallel)
 #   reduced = ~ genotype + aminoAcid,
 #   parallel = TRUE
 # )
+=======
+design(dds) = ~ genotype + aminoAcid + genotype:aminoAcid
+
+dds = DESeq(
+  dds,
+  test = "LRT",
+  reduced = ~ genotype + aminoAcid
+)
+>>>>>>> 8fa902069a054d712991ad24f35a0a2007b11ed5
 
 # write_rds(dds, here("data/mimic_cc_dds_lrt.rds"))
 
